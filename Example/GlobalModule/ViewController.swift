@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import GlobalModule
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let log = LoggerModule()
+        log.printLog()
     }
 
     override func didReceiveMemoryWarning() {

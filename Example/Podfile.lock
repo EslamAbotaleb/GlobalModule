@@ -1,5 +1,5 @@
 PODS:
-  - GlobalModule (0.1.0)
+  - GlobalModule (0.0.1)
 
 DEPENDENCIES:
   - GlobalModule (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GlobalModule: a036292bb33e4f9169f3a07fdb09101bb844b678
+  GlobalModule: aaa1bae179f17d6fd323cb9fcb93fa913b1bb6ad
 
-PODFILE CHECKSUM: c7a4db2380dfe5c701128ea3966451f881b12bc4
+PODFILE CHECKSUM: dbff22598f6c93e690e363c332cc63ddd9df6d23
 
 COCOAPODS: 1.16.2
