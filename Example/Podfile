@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'GlobalModule_Example' do
+  pod 'GlobalModule', :path => '../'
+
+  target 'GlobalModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
