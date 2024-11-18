@@ -33,6 +33,9 @@ Pod::Spec.new do |s|
   # }
     s.subspec 'Core' do |core|
      core.dependency 'Alamofire'
+     core.dependency 'RxSwift'
+     core.dependency 'RxCocoa'
+     core.dependency 'RxAlamofire'
     end
   # s.public_header_files = 'Pod/Classes/**/*.h'
     s.frameworks = 'UIKit'
