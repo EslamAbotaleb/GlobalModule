@@ -41,4 +41,6 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
     s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'RxSwift'
+    s.dependency 'RxCocoa'
 end
