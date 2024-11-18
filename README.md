@@ -22,7 +22,7 @@ pod 'GlobalModule'
 
 ## Author
 
-EslamAbotaleb, e.baiomy@mobily.com.sa
+EslamAbotaleb, eslamabotaleb07@gmail.com
 
 ## License
 

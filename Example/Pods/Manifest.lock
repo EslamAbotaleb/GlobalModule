@@ -1,0 +1,16 @@
+PODS:
+  - GlobalModule (0.1.0)
+
+DEPENDENCIES:
+  - GlobalModule (from `../`)
+
+EXTERNAL SOURCES:
+  GlobalModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GlobalModule: a036292bb33e4f9169f3a07fdb09101bb844b678
+
+PODFILE CHECKSUM: c7a4db2380dfe5c701128ea3966451f881b12bc4
+
+COCOAPODS: 1.16.2
