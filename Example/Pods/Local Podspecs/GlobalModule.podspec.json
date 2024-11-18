@@ -30,18 +30,26 @@
   ],
   "default_subspecs": "Core",
   "frameworks": "UIKit",
+  "dependencies": {
+    "RxSwift": [
+
+    ],
+    "RxCocoa": [
+
+    ]
+  },
   "subspecs": [
     {
       "name": "Core",
       "dependencies": {
         "Alamofire": [
-          "4.9.0"
+
         ],
         "RxSwift": [
 
         ],
         "RxCocoa": [
-          "~> 5"
+
         ],
         "RxAlamofire": [
 

@@ -8,13 +8,12 @@
 
 import UIKit
 import GlobalModule
-import RxSwift
+import RxRelay
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
 
     override func didReceiveMemoryWarning() {
