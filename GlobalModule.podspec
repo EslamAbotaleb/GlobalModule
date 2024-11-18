@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.source_files = 'GlobalModule/Classes/**/*.{swift}'
   s.ios.deployment_target = '12.0'
   s.platform = :ios, '12.0'
-  s.source_files = 'GlobalModule/Classes/**/*'
+  # s.source_files = 'GlobalModule/Classes/**/*'
   s.requires_arc = true
   s.swift_versions = ['4', '4.2', '5', '5.1', '5.2', '5.6', "5.9"]
   # s.resource_bundles = {
