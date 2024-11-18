@@ -8,12 +8,13 @@
 
 import UIKit
 import GlobalModule
+import RxSwift
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-     
+
     }
 
     override func didReceiveMemoryWarning() {

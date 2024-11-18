@@ -37,6 +37,7 @@ Pod::Spec.new do |s|
      core.dependency 'RxCocoa'
      core.dependency 'RxAlamofire'
     end
+    s.default_subspec = 'Core'
   # s.public_header_files = 'Pod/Classes/**/*.h'
     s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
