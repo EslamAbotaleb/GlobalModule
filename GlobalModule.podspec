@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.author           = { 'EslamAbotaleb' => 'eslamabotaleb07@gmail.com' }
   s.source           = { :git => 'https://github.com/EslamAbotaleb/GlobalModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  s.source_files = 'Classes/**/*.swift'
+  s.source_files = 'GlobalModule/Classes/**/*.{swift}'
   s.ios.deployment_target = '12.0'
   s.platform = :ios, '12.0'
   s.source_files = 'GlobalModule/Classes/**/*'
