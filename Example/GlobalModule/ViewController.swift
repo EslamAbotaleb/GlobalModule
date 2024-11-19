@@ -9,7 +9,7 @@
 import UIKit
 import GlobalModule
 import Alamofire
-import Kingfisher
+//import Kingfisher
 
 class ViewController: UIViewController {
 
