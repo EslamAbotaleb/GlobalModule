@@ -28,7 +28,7 @@
     "5.6",
     "5.9"
   ],
-  "default_subspecs": "Core",
+  "default_subspecs": "FeatureA",
   "frameworks": "UIKit",
   "subspecs": [
     {
@@ -52,11 +52,9 @@
       }
     },
     {
-      "name": "Kingfisher",
+      "name": "FeatureA",
+      "source_files": "GlobalModule/Kingfisher/*.swift",
       "dependencies": {
-        "GlobalModule/Core": [
-
-        ],
         "Kingfisher": [
 
         ]
