@@ -36,10 +36,14 @@ Pod::Spec.new do |spec|
         core.dependency 'RxSwift'
         core.dependency 'RxCocoa'
         core.dependency 'RxAlamofire'
-        core.dependency 'Kingfisher'
-        core.pod_target_xcconfig = { 'IPHONEOS_DEPLOYMENT_TARGET' => '12.0' }
+#        core.pod_target_xcconfig = { 'IPHONEOS_DEPLOYMENT_TARGET' => '12.0' }
+    end
+    spec.subspec 'Image' do |image|
+        image.dependency 'Kingfisher'
+#        image.pod_target_xcconfig = { 'IPHONEOS_DEPLOYMENT_TARGET' => '13.0' }
     end
     spec.default_subspec = 'Core'
+    spec.default_subspec = 'Image'
     spec.frameworks = 'UIKit'
     # s.public_header_files = 'Pod/Classes/**/*.h'
 end
