@@ -4,7 +4,7 @@ use_frameworks!
 
 target 'GlobalModule_Example' do
   pod 'GlobalModule', :path => '../'
-  pod 'Kingfisher'
+#  pod 'Kingfisher'
 #  pod 'CRRefresh'#, '1.1.3'
 #  pod 'SVGKit'
 #  pod 'JGProgressHUD'

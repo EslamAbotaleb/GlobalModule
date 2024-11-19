@@ -36,7 +36,7 @@ Pod::Spec.new do |spec|
         core.dependency 'RxSwift'
         core.dependency 'RxCocoa'
         core.dependency 'RxAlamofire'
-        core.dependency 'Kingfisher'
+#        core.dependency 'Kingfisher'
         core.pod_target_xcconfig = { 'IPHONEOS_DEPLOYMENT_TARGET' => '12.0' }
     end
     spec.default_subspec = 'Core'
