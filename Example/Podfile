@@ -4,7 +4,7 @@ use_frameworks!
 
 target 'GlobalModule_Example' do
   pod 'GlobalModule', :path => '../'
-  pod 'ObjectMapper', '~> 4.0'
+  pod 'ObjectMapper'
 #  pod 'JVFloatLabeledTextField'
 #  pod 'CRRefresh'#, '1.1.3'
 #  pod 'SVGKit'

@@ -4,11 +4,9 @@ PODS:
     - GlobalModule/Core (= 0.0.1)
   - GlobalModule/Core (0.0.1):
     - Alamofire
-    - Kingfisher
     - RxAlamofire
     - RxCocoa
     - RxSwift
-  - Kingfisher (7.12.0)
   - ObjectMapper (4.2.0)
   - RxAlamofire (6.1.1):
     - RxAlamofire/Core (= 6.1.1)
@@ -24,12 +22,11 @@ PODS:
 
 DEPENDENCIES:
   - GlobalModule (from `../`)
-  - ObjectMapper (~> 4.0)
+  - ObjectMapper
 
 SPEC REPOS:
   trunk:
     - Alamofire
-    - Kingfisher
     - ObjectMapper
     - RxAlamofire
     - RxCocoa
@@ -42,14 +39,13 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 840d2a1ad82355b536ec6ba5f97e5bfa54600ca3
-  GlobalModule: 8d7317c2467eeb47313814143d1464452dbdc7bd
-  Kingfisher: 53a10ea35051a436b5fb626ca2dd8f3144d755e9
+  GlobalModule: e26947bfaabb54dc64fd33b6e4dfe1567a0a87aa
   ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
   RxAlamofire: beb75a1c452d0de225651db4903f5d29d034a620
   RxCocoa: 2d33c1e1e5d66492052ad46b11024ae287572880
   RxRelay: 335c78b926a2aea8d863a6d25f1ed3b5ad8e8705
   RxSwift: 4e28be97cbcfeee614af26d83415febbf2bf6f45
 
-PODFILE CHECKSUM: e13aa41118a57c56b7aaf7dc00561cb12941603a
+PODFILE CHECKSUM: bcb23b5bf14ebd926aa767a7abe4b7be327c32ca
 
 COCOAPODS: 1.16.2
