@@ -36,12 +36,9 @@ Pod::Spec.new do |spec|
         core.dependency 'RxSwift'
         core.dependency 'RxCocoa'
         core.dependency 'RxAlamofire'
-#        core.dependency 'Kingfisher'
-#        core.dependency 'Toast-Swift'
-#        core.dependency 'MOLH'
-#        core.dependency 'netfox'
-#        core.dependency 'lottie-ios'
-        end
+
+        core.pod_target_xcconfig = { 'IPHONEOS_DEPLOYMENT_TARGET' => '12.0' }
+    end
     spec.default_subspec = 'Core'
     spec.frameworks = 'UIKit'
     # s.public_header_files = 'Pod/Classes/**/*.h'

@@ -46,6 +46,9 @@
         "RxAlamofire": [
 
         ]
+      },
+      "pod_target_xcconfig": {
+        "IPHONEOS_DEPLOYMENT_TARGET": "12.0"
       }
     }
   ],
