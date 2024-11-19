@@ -8,7 +8,11 @@ target 'GlobalModule_Example' do
   pod 'JVFloatLabeledTextField'
   pod 'CRRefresh'#, '1.1.3'
   pod 'SVGKit'
-
+  pod 'JGProgressHUD'
+  pod 'TransitionButton', '0.5.2'
+  pod 'IQKeyboardManagerSwift', '6.5.6'
+  pod 'DRPLoadingSpinner'
+  
   target 'GlobalModule_Tests' do
     inherit! :search_paths
 

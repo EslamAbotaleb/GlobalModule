@@ -39,9 +39,9 @@ Pod::Spec.new do |spec|
         core.dependency 'Kingfisher'
         core.dependency 'Toast-Swift'
         core.dependency 'MOLH'
-#        core.dependency 'SVGKit'
         core.dependency 'netfox'
         core.dependency 'lottie-ios'
+       
 
         core.pod_target_xcconfig = { 'IPHONEOS_DEPLOYMENT_TARGET' => '12.0' }
     end
