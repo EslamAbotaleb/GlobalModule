@@ -8,7 +8,7 @@
 
 import UIKit
 import GlobalModule
-import RxRelay
+import Kingfisher
 
 class ViewController: UIViewController {
 

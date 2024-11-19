@@ -45,6 +45,9 @@
         ],
         "RxAlamofire": [
 
+        ],
+        "Kingfisher": [
+
         ]
       },
       "pod_target_xcconfig": {
