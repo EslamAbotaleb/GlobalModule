@@ -24,8 +24,8 @@ Pod::Spec.new do |spec|
     spec.source           = { :git => 'https://github.com/EslamAbotaleb/GlobalModule.git', :tag => spec.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     spec.source_files = 'GlobalModule/Classes/**/*.{swift}'
-    spec.ios.deployment_target = '12.0'
-    spec.platform = :ios, '12.0'
+    spec.ios.deployment_target = '13.0'
+    spec.platform = :ios, '13.0'
     spec.requires_arc = true
     spec.swift_versions = ['4', '4.2', '5', '5.1', '5.2', '5.6', "5.9"]
     # s.resource_bundles = {
