@@ -7,6 +7,7 @@ PODS:
 
 DEPENDENCIES:
   - GlobalModule (from `../`)
+  - Kingfisher
 
 SPEC REPOS:
   trunk:
@@ -17,9 +18,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GlobalModule: 7a58458b36a252c6f9920e833e7308865f4984f4
+  GlobalModule: 0dc7a395514e55421939af5375fb5bb6acee9a55
   Kingfisher: 53a10ea35051a436b5fb626ca2dd8f3144d755e9
 
-PODFILE CHECKSUM: 91e1cd05c2077db8af0f202db5e8e85cd2d7078e
+PODFILE CHECKSUM: 614a6355487f808ab0b33d46de88616dc11cc28e
 
 COCOAPODS: 1.16.2
