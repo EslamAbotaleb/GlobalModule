@@ -39,6 +39,12 @@ Pod::Spec.new do |spec|
 #        core.dependency 'Kingfisher'
         core.pod_target_xcconfig = { 'IPHONEOS_DEPLOYMENT_TARGET' => '12.0' }
     end
+    spec.subspec 'Kingfisher' do |subspec|
+#     subspec.source_files = 'GlobalModule/Kingfisher/**/*.{h,m,swift}'
+     subspec.dependency 'GlobalModule/Core'
+     subspec.dependency 'Kingfisher'
+   end
+
     spec.default_subspec = 'Core'
     spec.frameworks = 'UIKit'
     # s.public_header_files = 'Pod/Classes/**/*.h'

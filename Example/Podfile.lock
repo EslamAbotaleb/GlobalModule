@@ -7,6 +7,7 @@ PODS:
     - RxAlamofire
     - RxCocoa
     - RxSwift
+  - Kingfisher (7.12.0)
   - RxAlamofire (6.1.1):
     - RxAlamofire/Core (= 6.1.1)
   - RxAlamofire/Core (6.1.1):
@@ -21,10 +22,12 @@ PODS:
 
 DEPENDENCIES:
   - GlobalModule (from `../`)
+  - Kingfisher
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - Kingfisher
     - RxAlamofire
     - RxCocoa
     - RxRelay
@@ -36,12 +39,13 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 840d2a1ad82355b536ec6ba5f97e5bfa54600ca3
-  GlobalModule: deece4db16a9f4039b742c6af16d514f45e11522
+  GlobalModule: 538f2dcf081eefc8a1c23fd3ff15dd40972e2f87
+  Kingfisher: 53a10ea35051a436b5fb626ca2dd8f3144d755e9
   RxAlamofire: beb75a1c452d0de225651db4903f5d29d034a620
   RxCocoa: 2d33c1e1e5d66492052ad46b11024ae287572880
   RxRelay: 335c78b926a2aea8d863a6d25f1ed3b5ad8e8705
   RxSwift: 4e28be97cbcfeee614af26d83415febbf2bf6f45
 
-PODFILE CHECKSUM: 9e5a3da74879ca04a5853a1da2c71982cf9d4ed0
+PODFILE CHECKSUM: 43e51cb34e656237bdb174fb200d9cf541cbeff3
 
 COCOAPODS: 1.16.2
