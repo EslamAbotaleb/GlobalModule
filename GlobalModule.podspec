@@ -41,7 +41,6 @@ Pod::Spec.new do |spec|
     end
     spec.subspec 'Image' do |image|
         image.dependency 'Kingfisher'
-        image.dependency 'MOLH'
     end
     spec.default_subspec = 'Core'
     spec.default_subspec = 'Image'
