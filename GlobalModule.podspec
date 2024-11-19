@@ -37,10 +37,10 @@ Pod::Spec.new do |spec|
         core.dependency 'RxCocoa'
         core.dependency 'RxAlamofire'
         core.dependency 'Kingfisher'
-        core.dependency 'Toast-Swift'
-        core.dependency 'MOLH'
-        core.dependency 'netfox'
-        core.dependency 'lottie-ios'
+#        core.dependency 'Toast-Swift'
+#        core.dependency 'MOLH'
+#        core.dependency 'netfox'
+#        core.dependency 'lottie-ios'
        
 
         core.pod_target_xcconfig = { 'IPHONEOS_DEPLOYMENT_TARGET' => '12.0' }
