@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
     spec.license          = { :type => 'MIT', :file => 'LICENSE' }
     spec.author           = { 'EslamAbotaleb' => 'eslamabotaleb07@gmail.com' }
     # s.source           = { :git => 'https://github.com/EslamAbotaleb/GlobalModule.git', :tag => s.version.to_s }
-    spec.source           = { :git => 'https://github.com/EslamAbotaleb/GlobalModule.git', :tag => "v0.0.1" }
+    spec.source           = { :git => 'https://github.com/EslamAbotaleb/GlobalModule.git', :tag => spec.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     spec.source_files = 'GlobalModule/Classes/**/*.{swift}'
     spec.ios.deployment_target = '12.0'
@@ -36,7 +36,7 @@ Pod::Spec.new do |spec|
         core.dependency 'RxSwift'
         core.dependency 'RxCocoa'
         core.dependency 'RxAlamofire'
-        core.dependency 'Kingfisher'
+#        core.dependency 'Kingfisher'
 #        core.dependency 'Toast-Swift'
 #        core.dependency 'MOLH'
 #        core.dependency 'netfox'
