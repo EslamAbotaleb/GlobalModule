@@ -4,10 +4,7 @@ use_frameworks!
 
 target 'GlobalModule_Example' do
   pod 'GlobalModule', :path => '../'
-#  pod 'Alamofire', '4.9.0'
-#  pod 'RxSwift'#, '~> 5'
-#  pod 'RxCocoa', '~> 5'
-#  pod 'RxAlamofire'
+  pod 'ObjectMapper', '~> 4.0'
 
   target 'GlobalModule_Tests' do
     inherit! :search_paths

@@ -4,9 +4,13 @@ PODS:
     - GlobalModule/Core (= 0.0.1)
   - GlobalModule/Core (0.0.1):
     - Alamofire
+    - Kingfisher
     - RxAlamofire
     - RxCocoa
     - RxSwift
+    - Toast-Swift
+  - Kingfisher (7.12.0)
+  - ObjectMapper (4.2.0)
   - RxAlamofire (6.1.1):
     - RxAlamofire/Core (= 6.1.1)
   - RxAlamofire/Core (6.1.1):
@@ -18,17 +22,22 @@ PODS:
   - RxRelay (6.8.0):
     - RxSwift (= 6.8.0)
   - RxSwift (6.8.0)
+  - Toast-Swift (5.1.1)
 
 DEPENDENCIES:
   - GlobalModule (from `../`)
+  - ObjectMapper (~> 4.0)
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - Kingfisher
+    - ObjectMapper
     - RxAlamofire
     - RxCocoa
     - RxRelay
     - RxSwift
+    - Toast-Swift
 
 EXTERNAL SOURCES:
   GlobalModule:
@@ -36,12 +45,15 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 840d2a1ad82355b536ec6ba5f97e5bfa54600ca3
-  GlobalModule: e26947bfaabb54dc64fd33b6e4dfe1567a0a87aa
+  GlobalModule: 8b35d51a9ca84bcd36ffdc27a3143e00352b3e3a
+  Kingfisher: 53a10ea35051a436b5fb626ca2dd8f3144d755e9
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
   RxAlamofire: beb75a1c452d0de225651db4903f5d29d034a620
   RxCocoa: 2d33c1e1e5d66492052ad46b11024ae287572880
   RxRelay: 335c78b926a2aea8d863a6d25f1ed3b5ad8e8705
   RxSwift: 4e28be97cbcfeee614af26d83415febbf2bf6f45
+  Toast-Swift: 7a03a532afe3a560d4044bc7c237e2864d295173
 
-PODFILE CHECKSUM: a92b5ead3fdf06d2954b182251edc83edec96dce
+PODFILE CHECKSUM: 18ad69f291fb9a7d6514d4cde3c6823e20089322
 
 COCOAPODS: 1.16.2
