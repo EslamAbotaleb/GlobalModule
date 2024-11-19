@@ -8,6 +8,7 @@
 
 import UIKit
 import GlobalModule
+import Kingfisher
 
 class ViewController: UIViewController {
 
