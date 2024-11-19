@@ -42,7 +42,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 840d2a1ad82355b536ec6ba5f97e5bfa54600ca3
-  GlobalModule: 05cab236e3860ebf32c25f69ffff13ccca944f01
+  GlobalModule: 8d7317c2467eeb47313814143d1464452dbdc7bd
   Kingfisher: 53a10ea35051a436b5fb626ca2dd8f3144d755e9
   ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
   RxAlamofire: beb75a1c452d0de225651db4903f5d29d034a620
