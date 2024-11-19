@@ -5,6 +5,9 @@ use_frameworks!
 target 'GlobalModule_Example' do
   pod 'GlobalModule', :path => '../'
   pod 'ObjectMapper', '~> 4.0'
+  pod 'JVFloatLabeledTextField'
+  pod 'CRRefresh'#, '1.1.3'
+  pod 'SVGKit'
 
   target 'GlobalModule_Tests' do
     inherit! :search_paths
