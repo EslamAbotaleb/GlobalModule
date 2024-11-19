@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   #   'GlobalModule' => ['GlobalModule/Assets/*.png']
   # }
     s.subspec 'Core' do |core|
-     core.dependency 'Alamofire'
+#     core.dependency 'Alamofire'
      core.dependency 'RxSwift'
      core.dependency 'RxCocoa'
      core.dependency 'RxAlamofire'

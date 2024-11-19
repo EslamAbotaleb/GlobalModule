@@ -1,49 +1,17 @@
 PODS:
-  - Alamofire (5.10.1)
   - GlobalModule (0.0.1):
     - GlobalModule/Core (= 0.0.1)
-    - RxCocoa
-    - RxSwift
-  - GlobalModule/Core (0.0.1):
-    - Alamofire
-    - RxAlamofire
-    - RxCocoa
-    - RxSwift
-  - RxAlamofire (6.1.1):
-    - RxAlamofire/Core (= 6.1.1)
-  - RxAlamofire/Core (6.1.1):
-    - Alamofire (~> 5.4)
-    - RxSwift (~> 6.0)
-  - RxCocoa (6.8.0):
-    - RxRelay (= 6.8.0)
-    - RxSwift (= 6.8.0)
-  - RxRelay (6.8.0):
-    - RxSwift (= 6.8.0)
-  - RxSwift (6.8.0)
 
 DEPENDENCIES:
   - GlobalModule (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - Alamofire
-    - RxAlamofire
-    - RxCocoa
-    - RxRelay
-    - RxSwift
 
 EXTERNAL SOURCES:
   GlobalModule:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Alamofire: 840d2a1ad82355b536ec6ba5f97e5bfa54600ca3
-  GlobalModule: 1388ef34bd5efb5ee8a041a37b0ff86686a4624c
-  RxAlamofire: beb75a1c452d0de225651db4903f5d29d034a620
-  RxCocoa: 2d33c1e1e5d66492052ad46b11024ae287572880
-  RxRelay: 335c78b926a2aea8d863a6d25f1ed3b5ad8e8705
-  RxSwift: 4e28be97cbcfeee614af26d83415febbf2bf6f45
+  GlobalModule: e26947bfaabb54dc64fd33b6e4dfe1567a0a87aa
 
-PODFILE CHECKSUM: 8cb34cb68df7e8243bb5fc77f9aa4199e2e7b532
+PODFILE CHECKSUM: b12f1887216c9a14326c38ae0efafc3a7b346106
 
 COCOAPODS: 1.16.2

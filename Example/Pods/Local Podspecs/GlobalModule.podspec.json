@@ -30,14 +30,6 @@
   ],
   "default_subspecs": "Core",
   "frameworks": "UIKit",
-  "dependencies": {
-    "RxSwift": [
-
-    ],
-    "RxCocoa": [
-
-    ]
-  },
   "subspecs": [
     {
       "name": "Core",
