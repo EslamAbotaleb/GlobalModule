@@ -20,4 +20,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func showToast() {
+        var style = ToastStyle()
+    }
 }
