@@ -22,8 +22,8 @@ Pod::Spec.new do |spec|
     spec.source           = { :git => 'https://github.com/EslamAbotaleb/GlobalModule.git', :tag => spec.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     spec.source_files = 'GlobalModule/Classes/**/*.{swift}'
-    spec.ios.deployment_target = '13.0'
-    spec.platform = :ios, '13.0'
+    spec.ios.deployment_target = '12.0'
+    spec.platform = :ios, '12.0'
     spec.requires_arc = true
     spec.swift_versions = ['4', '4.2', '5', '5.1', '5.2', '5.6']
     # s.resource_bundles = {
@@ -41,20 +41,16 @@ Pod::Spec.new do |spec|
         image.dependency 'Kingfisher'
 #        image.dependency 'InitialsImageView'
     end
-    spec.subspec 'Loader' do |loader|
-        loader.dependency 'JGProgressHUD'
-#        loader.dependency 'CRRefresh'
-#        loader.dependency 'DRPLoadingSpinner'
-        loader.requires_arc = true
 
-    end
     spec.subspec 'FirebaseCore' do |firebase|
         firebase.dependency 'Firebase/AnalyticsWithoutAdIdSupport'
         firebase.dependency 'FirebaseMessaging'
         firebase.dependency 'FirebaseCrashlytics'
         firebase.dependency 'FirebasePerformance'
     end
-    spec.default_subspec = 'Core','Image','FirebaseCore','Loader'
+    spec.default_subspec = 'Core','Image','FirebaseCore'
+#    ,'Picker'
+    #,'Loader'
 
     spec.frameworks = 'UIKit'
     # s.public_header_files = 'Pod/Classes/**/*.h'
