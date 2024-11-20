@@ -43,6 +43,13 @@ Pod::Spec.new do |spec|
     spec.subspec 'Popup' do |popup|
         popup.dependency 'EzPopup'
     end
+    spec.subspec 'HTML' do |html|
+        html.dependency 'SwiftSoup'
+    end
+    spec.subspec 'Language' do |language|
+        language.dependency 'MOLH'
+    end
+
 
     spec.subspec 'FirebaseCore' do |firebase|
         firebase.dependency 'Firebase/AnalyticsWithoutAdIdSupport'
@@ -50,10 +57,7 @@ Pod::Spec.new do |spec|
         firebase.dependency 'FirebaseCrashlytics'
         firebase.dependency 'FirebasePerformance'
     end
-    spec.default_subspec = 'Core','Image','FirebaseCore','Popup'
-#    ,'Picker'
-    #,'Loader'
-
+    spec.default_subspec = 'Core','Image','FirebaseCore','Popup','HTML','Language'
     spec.frameworks = 'UIKit'
 #    spec.public_header_files = 'Pod/Classes/**/*.h'
 end
