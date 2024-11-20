@@ -39,7 +39,6 @@ Pod::Spec.new do |spec|
     end
     spec.subspec 'Image' do |image|
         image.dependency 'Kingfisher'
-        image.pod_target_xcconfig = { 'IPHONEOS_DEPLOYMENT_TARGET' => '13.0' }
     end
     spec.subspec 'FirebaseCore' do |firebase|
         firebase.dependency 'Firebase/AnalyticsWithoutAdIdSupport'
