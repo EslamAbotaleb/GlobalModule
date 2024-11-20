@@ -36,10 +36,10 @@ Pod::Spec.new do |spec|
         core.dependency 'RxAlamofire'
         core.dependency 'netfox'
         core.dependency 'lottie-ios'
+        core.dependency 'SwiftSignalRClient'
     end
     spec.subspec 'Image' do |image|
         image.dependency 'Kingfisher'
-#        image.dependency 'InitialsImageView'
     end
 
     spec.subspec 'FirebaseCore' do |firebase|
