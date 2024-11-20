@@ -42,8 +42,15 @@ Pod::Spec.new do |spec|
     spec.subspec 'Image' do |image|
         image.dependency 'Kingfisher'
     end
+    spec.subspec 'FirebaseCore' do |firebase|
+        firebase.dependency 'Firebase/AnalyticsWithoutAdIdSupport'
+        firebase.dependency 'FirebaseMessaging'
+        firebase.dependency 'FirebaseCrashlytics'
+        firebase.dependency 'FirebasePerformance'
+    end
     spec.default_subspec = 'Core'
     spec.default_subspec = 'Image'
+    spec.default_subspec = 'FirebaseCore'
 
     spec.frameworks = 'UIKit'
     # s.public_header_files = 'Pod/Classes/**/*.h'
