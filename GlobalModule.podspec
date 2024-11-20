@@ -36,10 +36,12 @@ Pod::Spec.new do |spec|
         core.dependency 'RxAlamofire'
         core.dependency 'netfox'
         core.dependency 'lottie-ios'
-        core.dependency 'EzPopup'
     end
     spec.subspec 'Image' do |image|
         image.dependency 'Kingfisher'
+    end
+    spec.subspec 'Popup' do |popup|
+        popup.dependency 'EzPopup'
     end
 
     spec.subspec 'FirebaseCore' do |firebase|
@@ -48,7 +50,7 @@ Pod::Spec.new do |spec|
         firebase.dependency 'FirebaseCrashlytics'
         firebase.dependency 'FirebasePerformance'
     end
-    spec.default_subspec = 'Core','Image','FirebaseCore'
+    spec.default_subspec = 'Core','Image','FirebaseCore','Popup'
 #    ,'Picker'
     #,'Loader'
 
