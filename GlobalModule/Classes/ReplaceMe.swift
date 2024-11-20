@@ -1,5 +1,7 @@
 
 import Foundation
+import UIKit
+import ObjectiveC
 
 public class LoggerModule {
     public init(){}
