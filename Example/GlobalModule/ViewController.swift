@@ -8,6 +8,8 @@
 
 import UIKit
 import GlobalModule
+import Kingfisher
+import EzPopup
 
 class ViewController: UIViewController {
 
