@@ -52,5 +52,5 @@ Pod::Spec.new do |spec|
     #,'Loader'
 
     spec.frameworks = 'UIKit'
-    spec.public_header_files = 'GlobalModule/Classes/**/*.h'
+#    spec.public_header_files = 'Pod/Classes/**/*.h'
 end
