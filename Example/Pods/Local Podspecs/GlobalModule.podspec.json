@@ -28,7 +28,7 @@
     "5.6",
     "5.9"
   ],
-  "default_subspecs": "Image",
+  "default_subspecs": "FirebaseCore",
   "frameworks": "UIKit",
   "subspecs": [
     {
@@ -51,9 +51,6 @@
         ],
         "lottie-ios": [
 
-        ],
-        "MOLH": [
-
         ]
       }
     },
@@ -61,6 +58,26 @@
       "name": "Image",
       "dependencies": {
         "Kingfisher": [
+
+        ]
+      },
+      "pod_target_xcconfig": {
+        "IPHONEOS_DEPLOYMENT_TARGET": "13.0"
+      }
+    },
+    {
+      "name": "FirebaseCore",
+      "dependencies": {
+        "Firebase/AnalyticsWithoutAdIdSupport": [
+
+        ],
+        "FirebaseMessaging": [
+
+        ],
+        "FirebaseCrashlytics": [
+
+        ],
+        "FirebasePerformance": [
 
         ]
       }

@@ -17,10 +17,8 @@ Pod::Spec.new do |spec|
     #   * Finally, don't worry about the indent, CocoaPods strips it!
 
     spec.homepage         = 'https://github.com/EslamAbotaleb/GlobalModule'
-    # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     spec.license          = { :type => 'MIT', :file => 'LICENSE' }
     spec.author           = { 'EslamAbotaleb' => 'eslamabotaleb07@gmail.com' }
-    # s.source           = { :git => 'https://github.com/EslamAbotaleb/GlobalModule.git', :tag => s.version.to_s }
     spec.source           = { :git => 'https://github.com/EslamAbotaleb/GlobalModule.git', :tag => spec.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     spec.source_files = 'GlobalModule/Classes/**/*.{swift}'
@@ -41,6 +39,7 @@ Pod::Spec.new do |spec|
     end
     spec.subspec 'Image' do |image|
         image.dependency 'Kingfisher'
+        image.pod_target_xcconfig = { 'IPHONEOS_DEPLOYMENT_TARGET' => '13.0' }
     end
     spec.subspec 'FirebaseCore' do |firebase|
         firebase.dependency 'Firebase/AnalyticsWithoutAdIdSupport'
