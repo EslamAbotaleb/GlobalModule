@@ -49,7 +49,10 @@ Pod::Spec.new do |spec|
     spec.subspec 'Language' do |language|
         language.dependency 'MOLH'
     end
-
+    spec.subspec 'Layout' do |layout|
+        layout.dependency 'BetterSegmentedControl'
+        layout.dependency 'SkeletonView'
+    end
 
     spec.subspec 'FirebaseCore' do |firebase|
         firebase.dependency 'Firebase/AnalyticsWithoutAdIdSupport'
@@ -57,7 +60,7 @@ Pod::Spec.new do |spec|
         firebase.dependency 'FirebaseCrashlytics'
         firebase.dependency 'FirebasePerformance'
     end
-    spec.default_subspec = 'Core','Image','FirebaseCore','Popup','HTML','Language'
+    spec.default_subspec = 'Core','Image','FirebaseCore','Popup','HTML','Language','Layout'
     spec.frameworks = 'UIKit'
 #    spec.public_header_files = 'Pod/Classes/**/*.h'
 end
