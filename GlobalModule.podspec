@@ -52,6 +52,7 @@ Pod::Spec.new do |spec|
     spec.subspec 'Layout' do |layout|
         layout.dependency 'BetterSegmentedControl'
         layout.dependency 'SkeletonView'
+        layout.dependency 'AnimatedCollectionViewLayout'
     end
 
     spec.subspec 'FirebaseCore' do |firebase|
