@@ -40,6 +40,7 @@ Pod::Spec.new do |spec|
     spec.subspec 'Image' do |image|
         image.dependency 'Kingfisher'
     end
+    
     spec.subspec 'Popup' do |popup|
         popup.dependency 'EzPopup'
     end
