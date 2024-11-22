@@ -36,6 +36,7 @@ Pod::Spec.new do |spec|
         core.dependency 'RxAlamofire'
         core.dependency 'netfox'
         core.dependency 'lottie-ios'
+        core.dependency 'IQKeyboardManagerSwift'
     end
     spec.subspec 'Image' do |image|
         image.dependency 'Kingfisher'
