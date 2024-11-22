@@ -30,7 +30,11 @@
   "default_subspecs": [
     "Core",
     "Image",
-    "FirebaseCore"
+    "FirebaseCore",
+    "Popup",
+    "HTML",
+    "Language",
+    "Layout"
   ],
   "frameworks": "UIKit",
   "subspecs": [
@@ -54,30 +58,6 @@
         ],
         "lottie-ios": [
 
-        ],
-        "DropDown": [
-
-        ],
-        "CalendarDateRangePicker": [
-
-        ],
-        "FSCalendar": [
-
-        ],
-        "Expression": [
-
-        ],
-        "SVGKit": [
-
-        ],
-        "InitialsImageView": [
-
-        ],
-        "AlignedCollectionViewFlowLayout": [
-
-        ],
-        "DRPLoadingSpinner": [
-
         ]
       }
     },
@@ -85,6 +65,44 @@
       "name": "Image",
       "dependencies": {
         "Kingfisher": [
+
+        ]
+      }
+    },
+    {
+      "name": "Popup",
+      "dependencies": {
+        "EzPopup": [
+
+        ]
+      }
+    },
+    {
+      "name": "HTML",
+      "dependencies": {
+        "SwiftSoup": [
+
+        ]
+      }
+    },
+    {
+      "name": "Language",
+      "dependencies": {
+        "MOLH": [
+
+        ]
+      }
+    },
+    {
+      "name": "Layout",
+      "dependencies": {
+        "BetterSegmentedControl": [
+
+        ],
+        "SkeletonView": [
+
+        ],
+        "AnimatedCollectionViewLayout": [
 
         ]
       }

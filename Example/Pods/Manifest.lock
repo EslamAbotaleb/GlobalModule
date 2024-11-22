@@ -1,16 +1,9 @@
 PODS:
   - Alamofire (5.10.1)
-  - AlignedCollectionViewFlowLayout (1.1.2)
-  - AzureNotificationHubs-iOS (3.1.5)
-  - CalendarDateRangePicker (2.0)
-  - CocoaLumberjack (3.8.5):
-    - CocoaLumberjack/Core (= 3.8.5)
-  - CocoaLumberjack/Core (3.8.5)
+  - AnimatedCollectionViewLayout (1.1.0)
+  - BetterSegmentedControl (2.0.1)
   - DropDown (2.3.13)
-  - DRPLoadingSpinner (1.3.1):
-    - DRPLoadingSpinner/core (= 1.3.1)
-  - DRPLoadingSpinner/core (1.3.1)
-  - Expression (0.13.9)
+  - EzPopup (1.2.4)
   - Firebase/AnalyticsWithoutAdIdSupport (10.29.0):
     - Firebase/CoreOnly
     - FirebaseAnalytics/WithoutAdIdSupport (~> 10.29.0)
@@ -88,33 +81,38 @@ PODS:
     - nanopb (< 2.30911.0, >= 2.30908.0)
     - PromisesSwift (~> 2.1)
   - FirebaseSharedSwift (10.29.0)
-  - FSCalendar (2.8.4)
   - GlobalModule (0.0.1):
     - GlobalModule/Core (= 0.0.1)
     - GlobalModule/FirebaseCore (= 0.0.1)
+    - GlobalModule/HTML (= 0.0.1)
     - GlobalModule/Image (= 0.0.1)
+    - GlobalModule/Language (= 0.0.1)
+    - GlobalModule/Layout (= 0.0.1)
+    - GlobalModule/Popup (= 0.0.1)
   - GlobalModule/Core (0.0.1):
     - Alamofire
-    - AlignedCollectionViewFlowLayout
-    - CalendarDateRangePicker
-    - DropDown
-    - DRPLoadingSpinner
-    - Expression
-    - FSCalendar
-    - InitialsImageView
     - lottie-ios
     - netfox
     - RxAlamofire
     - RxCocoa
     - RxSwift
-    - SVGKit
   - GlobalModule/FirebaseCore (0.0.1):
     - Firebase/AnalyticsWithoutAdIdSupport
     - FirebaseCrashlytics
     - FirebaseMessaging
     - FirebasePerformance
+  - GlobalModule/HTML (0.0.1):
+    - SwiftSoup
   - GlobalModule/Image (0.0.1):
     - Kingfisher
+  - GlobalModule/Language (0.0.1):
+    - MOLH
+  - GlobalModule/Layout (0.0.1):
+    - AnimatedCollectionViewLayout
+    - BetterSegmentedControl
+    - SkeletonView
+  - GlobalModule/Popup (0.0.1):
+    - EzPopup
   - GoogleAppMeasurement/WithoutAdIdSupport (10.29.0):
     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
     - GoogleUtilities/MethodSwizzler (~> 7.11)
@@ -155,9 +153,9 @@ PODS:
   - GoogleUtilities/UserDefaults (7.13.3):
     - GoogleUtilities/Logger
     - GoogleUtilities/Privacy
-  - InitialsImageView (0.7.0)
   - Kingfisher (8.1.0)
   - lottie-ios (4.5.0)
+  - MOLH (1.4.3)
   - nanopb (2.30910.0):
     - nanopb/decode (= 2.30910.0)
     - nanopb/encode (= 2.30910.0)
@@ -178,31 +176,20 @@ PODS:
   - RxRelay (6.8.0):
     - RxSwift (= 6.8.0)
   - RxSwift (6.8.0)
-  - SVGKit (3.0.0):
-    - CocoaLumberjack (~> 3.0)
+  - SkeletonView (1.30.4)
+  - SwiftSoup (2.7.6)
 
 DEPENDENCIES:
-  - AlignedCollectionViewFlowLayout
-  - AzureNotificationHubs-iOS
-  - CalendarDateRangePicker
   - DropDown
-  - DRPLoadingSpinner
-  - Expression
-  - FSCalendar
   - GlobalModule (from `../`)
-  - InitialsImageView
-  - SVGKit
 
 SPEC REPOS:
   trunk:
     - Alamofire
-    - AlignedCollectionViewFlowLayout
-    - AzureNotificationHubs-iOS
-    - CalendarDateRangePicker
-    - CocoaLumberjack
+    - AnimatedCollectionViewLayout
+    - BetterSegmentedControl
     - DropDown
-    - DRPLoadingSpinner
-    - Expression
+    - EzPopup
     - Firebase
     - FirebaseABTesting
     - FirebaseAnalytics
@@ -217,13 +204,12 @@ SPEC REPOS:
     - FirebaseRemoteConfigInterop
     - FirebaseSessions
     - FirebaseSharedSwift
-    - FSCalendar
     - GoogleAppMeasurement
     - GoogleDataTransport
     - GoogleUtilities
-    - InitialsImageView
     - Kingfisher
     - lottie-ios
+    - MOLH
     - nanopb
     - netfox
     - PromisesObjC
@@ -232,7 +218,8 @@ SPEC REPOS:
     - RxCocoa
     - RxRelay
     - RxSwift
-    - SVGKit
+    - SkeletonView
+    - SwiftSoup
 
 EXTERNAL SOURCES:
   GlobalModule:
@@ -240,13 +227,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 840d2a1ad82355b536ec6ba5f97e5bfa54600ca3
-  AlignedCollectionViewFlowLayout: ee2ef451e741ec08f8e0967d828001e2f051c20a
-  AzureNotificationHubs-iOS: e5de62f44d7915a5cc3c5194ddc57cf2ee78873e
-  CalendarDateRangePicker: fa5f660023cf896180c04fe5c7687106734a54e4
-  CocoaLumberjack: 6a459bc897d6d80bd1b8c78482ec7ad05dffc3f0
+  AnimatedCollectionViewLayout: 0c1a38c4be115c525c887be183fc91ef65737c5d
+  BetterSegmentedControl: 09607b27861d49cbce48b7673b74f9150a3d371a
   DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
-  DRPLoadingSpinner: 725e530bf4ebe2cc351b1fbc94d24fe8ac3300fd
-  Expression: 015487973414e0e7b1c4324a89c875c4d37d6b20
+  EzPopup: 37f2c40e8ce50412a269bfba365baa7085c28002
   Firebase: cec914dab6fd7b1bd8ab56ea07ce4e03dd251c2d
   FirebaseABTesting: d87f56707159bae64e269757a6e963d490f2eebe
   FirebaseAnalytics: 23717de130b779aa506e757edb9713d24b6ffeda
@@ -261,14 +245,13 @@ SPEC CHECKSUMS:
   FirebaseRemoteConfigInterop: 6efda51fb5e2f15b16585197e26eaa09574e8a4d
   FirebaseSessions: dbd14adac65ce996228652c1fc3a3f576bdf3ecc
   FirebaseSharedSwift: 20530f495084b8d840f78a100d8c5ee613375f6e
-  FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
-  GlobalModule: a70a91c8d0c449ede2bb8b8a741908a130f19f17
+  GlobalModule: 68656b81db10a2870f75b5bdbe3ed104821be4cb
   GoogleAppMeasurement: f9de05ee17401e3355f68e8fc8b5064d429f5918
   GoogleDataTransport: 6c09b596d841063d76d4288cc2d2f42cc36e1e2a
   GoogleUtilities: ea963c370a38a8069cc5f7ba4ca849a60b6d7d15
-  InitialsImageView: 7a416d36fc6df5434198664db28a3ffb0228426d
   Kingfisher: dfbf20b6249ed4ef6f18d6a96c847bce860bdb95
   lottie-ios: a881093fab623c467d3bce374367755c272bdd59
+  MOLH: e45827d200aeb1310641090fd8cd03ad2b42ae72
   nanopb: 438bc412db1928dac798aa6fd75726007be04262
   netfox: 9d5cc727fe7576c4c7688a2504618a156b7d44b7
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
@@ -277,8 +260,9 @@ SPEC CHECKSUMS:
   RxCocoa: 2d33c1e1e5d66492052ad46b11024ae287572880
   RxRelay: 335c78b926a2aea8d863a6d25f1ed3b5ad8e8705
   RxSwift: 4e28be97cbcfeee614af26d83415febbf2bf6f45
-  SVGKit: 1ad7513f8c74d9652f94ed64ddecda1a23864dea
+  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
+  SwiftSoup: 9ec2526c76ebc3fe5d3157c82b40b45a27eeb82d
 
-PODFILE CHECKSUM: 0781457fd414bfa984639993b70463195126e34e
+PODFILE CHECKSUM: 8060f13988d41e8244db97a6f4c1a1af53f6d39b
 
 COCOAPODS: 1.16.2
