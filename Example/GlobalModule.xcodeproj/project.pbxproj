@@ -14,7 +14,6 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		AA0F7F9E2CF0D20C00D345F4 /* LoggerModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0F7F9D2CF0D20C00D345F4 /* LoggerModule.swift */; };
 		AC881D81B8DCAEDE49A010E5 /* Pods_GlobalModule_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E570A366EFC2755F5490DBD2 /* Pods_GlobalModule_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +43,6 @@
 		676E52FCA60E2C0D8F0BF48A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6926BD829E8EAE3C41634821 /* GlobalModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GlobalModule.podspec; path = ../GlobalModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		709AA408C861E05CE37DB798 /* Pods-GlobalModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalModule_Example.release.xcconfig"; path = "Target Support Files/Pods-GlobalModule_Example/Pods-GlobalModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AA0F7F9D2CF0D20C00D345F4 /* LoggerModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerModule.swift; sourceTree = "<group>"; };
 		B0C8C9A47D528592D969FE26 /* Pods-GlobalModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GlobalModule_Tests/Pods-GlobalModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D79D50A6D172E0DE84983931 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E4271E4C517AAC73B9E26D0B /* Pods_GlobalModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlobalModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +93,6 @@
 		607FACD21AFB9204008FA782 /* Example for GlobalModule */ = {
 			isa = PBXGroup;
 			children = (
-				AA0F7F9C2CF0D1FC00D345F4 /* Common */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -149,14 +146,6 @@
 				E570A366EFC2755F5490DBD2 /* Pods_GlobalModule_Tests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AA0F7F9C2CF0D1FC00D345F4 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				AA0F7F9D2CF0D20C00D345F4 /* LoggerModule.swift */,
-			);
-			path = Common;
 			sourceTree = "<group>";
 		};
 		E78794151990DE0D16E26F3A /* Pods */ = {
@@ -408,7 +397,6 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				AA0F7F9E2CF0D20C00D345F4 /* LoggerModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
