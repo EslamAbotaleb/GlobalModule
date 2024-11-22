@@ -1170,7 +1170,6 @@
 		9A3289A12DC232FDDDCB25BA70874692 /* FIRMessagingCheckinStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F37512B4E2E9845F07F33CACECFCF5 /* FIRMessagingCheckinStore.m */; };
 		9A4A4AD7050473E509B44F5B8DCF20FD /* TextNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C863AF82DE58E853493AD7AC8131AD0 /* TextNode.swift */; };
 		9A511120C51F836ADA9D20752E0464DC /* FPRGDTRateLimiter.h in Headers */ = {isa = PBXBuildFile; fileRef = E09C467791C0163274DBAB6E2E99590D /* FPRGDTRateLimiter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9A9D83DD1090700A66CAEAF171EE8176 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2DD56F8D0802EF0E1B232C7888250E /* ReplaceMe.swift */; };
 		9AB0F04997A2DFFD1F98BF33D7AFF496 /* PrepareViewForSkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7FE41B94BF4E95E8E8EFFB3409E41C /* PrepareViewForSkeleton.swift */; };
 		9ABD278363AA9AECFFBD10EA9458387B /* RolloutAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E2AC183B684E263BF1C7913286BC0 /* RolloutAssignment.swift */; };
 		9ABDE8C7A4087B8E388F7A0E00BAC153 /* Promise+Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D049D98815CE9B06F21324D5DDA70B /* Promise+Delay.swift */; };
@@ -1291,6 +1290,7 @@
 		A9B0233F2C7CD6365526CA2178F9215F /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA890B90332D9CB04C76A5F41FD561 /* URLRequest+Alamofire.swift */; };
 		A9BE9B0AADDF745F632939C24F2E07A4 /* FIRCLSMachO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4554E2FDB6066823A86663F14199D971 /* FIRCLSMachO.m */; };
 		A9CBF794671B9B5281B4D859C5A43C00 /* LinearCardAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A2E329862681B11BFAD4D9BAE0244F /* LinearCardAttributesAnimator.swift */; };
+		AA0F7FA02CF0D80900D345F4 /* LoggerModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0F7F9F2CF0D80900D345F4 /* LoggerModule.swift */; };
 		AA1A8BA3DE839D850995797ED37BFAF6 /* FPRNetworkTrace+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB6889EFC16FDBF82032FF311111479 /* FPRNetworkTrace+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AA41742627787258762293C387123567 /* BundleImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF86681CD910F5723581E640ACF409A /* BundleImageProvider.swift */; };
 		AA485F286F353716292975175979AD11 /* RxTextViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0685EAB236BD1B5D9BE93AD9A45C98BC /* RxTextViewDelegateProxy.swift */; };
@@ -3326,7 +3326,6 @@
 		3EB0164E1BB0F5F43A03D12109A6F3E0 /* LayerProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayerProperty.swift; path = Sources/Private/CoreAnimation/Animations/LayerProperty.swift; sourceTree = "<group>"; };
 		3EF5DD3B6722855BB51BBF0689CE9D4A /* GULHeartbeatDateStorageUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULHeartbeatDateStorageUserDefaults.m; path = GoogleUtilities/Environment/GULHeartbeatDateStorageUserDefaults.m; sourceTree = "<group>"; };
 		3F238BB22C5201CE689CAF2F766AED95 /* FBLPromises_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBLPromises_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F2DD56F8D0802EF0E1B232C7888250E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GlobalModule/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		3F445EBD0CEF5CBD23C6A43B36335D54 /* _RXDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _RXDelegateProxy.m; path = RxCocoa/Runtime/_RXDelegateProxy.m; sourceTree = "<group>"; };
 		3F63DC15D7CF238F60FD1D6F42E2979B /* StringBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringBuilder.swift; path = Sources/StringBuilder.swift; sourceTree = "<group>"; };
 		3F99CBB59749A6F54629D6FF97FC67D4 /* Cancelable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cancelable.swift; path = RxSwift/Cancelable.swift; sourceTree = "<group>"; };
@@ -4180,6 +4179,7 @@
 		A9CB1E3BFFC449C9479A9B9D28FC2DDA /* Promise+Validate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Validate.swift"; path = "Sources/Promises/Promise+Validate.swift"; sourceTree = "<group>"; };
 		A9DD16C7E980F3CC4A2F2BED87D1FCF2 /* Ellipse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ellipse.swift; path = Sources/Private/Model/ShapeItems/Ellipse.swift; sourceTree = "<group>"; };
 		A9F4DEC68A1E5FD2D6D344F758D7ACB4 /* FPRNSURLConnectionInstrument_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPRNSURLConnectionInstrument_Private.h; path = FirebasePerformance/Sources/Instrumentation/Network/FPRNSURLConnectionInstrument_Private.h; sourceTree = "<group>"; };
+		AA0F7F9F2CF0D80900D345F4 /* LoggerModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerModule.swift; sourceTree = "<group>"; };
 		AA264B1498FF09EB493C8A6B2B5FE17D /* UIViewConfiguringSwiftUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewConfiguringSwiftUIView.swift; path = Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/UIViewConfiguringSwiftUIView.swift; sourceTree = "<group>"; };
 		AA33B3667358412C062D2859934C2B8C /* FIRStackFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRStackFrame.m; path = Crashlytics/Crashlytics/FIRStackFrame.m; sourceTree = "<group>"; };
 		AA4013F0102F0CD8934C7C058E62CAAB /* FIRCurrentDateProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCurrentDateProvider.h; path = FirebaseInstallations/Source/Library/InstallationsIDController/FIRCurrentDateProvider.h; sourceTree = "<group>"; };
@@ -6869,7 +6869,7 @@
 		7F98F3FB562CCFE718B213DDD39140C7 /* GlobalModule */ = {
 			isa = PBXGroup;
 			children = (
-				3F2DD56F8D0802EF0E1B232C7888250E /* ReplaceMe.swift */,
+				AA0F7F9F2CF0D80900D345F4 /* LoggerModule.swift */,
 				CD892DEC10A51CB045BE445C07BE4ADB /* Pod */,
 				87B2D8A01007959CCDACDE8971B52E18 /* Support Files */,
 			);
@@ -11525,7 +11525,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6758A12CC1258FF0F9E63832BA71C377 /* GlobalModule-dummy.m in Sources */,
-				9A9D83DD1090700A66CAEAF171EE8176 /* ReplaceMe.swift in Sources */,
+				AA0F7FA02CF0D80900D345F4 /* LoggerModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
