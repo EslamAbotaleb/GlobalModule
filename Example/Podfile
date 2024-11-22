@@ -1,6 +1,11 @@
 use_frameworks!
 #platform :ios, '12.0'
 target 'GlobalModule_Example' do
+  pod 'JGProgressHUD'#, '2.2'
+  pod 'IQKeyboardManagerSwift', '6.5.6'
+  pod 'JVFloatLabeledTextField'
+  pod 'CRRefresh'#, '1.1.3'
+  pod 'FittedSheets', '1.3.0'
   pod 'GlobalModule', :path => '../'
 
   target 'GlobalModule_Tests' do
