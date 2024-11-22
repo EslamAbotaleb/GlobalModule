@@ -12,5 +12,8 @@ public class LoggerModule {
     public func printLog() {
         print("Hello world")
     }
+    public func hiaHowHiayawala() {
+        print("hiaHowHiayawala")
+    }
 
 }
