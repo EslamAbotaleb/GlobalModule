@@ -1291,6 +1291,7 @@
 		A9BE9B0AADDF745F632939C24F2E07A4 /* FIRCLSMachO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4554E2FDB6066823A86663F14199D971 /* FIRCLSMachO.m */; };
 		A9CBF794671B9B5281B4D859C5A43C00 /* LinearCardAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A2E329862681B11BFAD4D9BAE0244F /* LinearCardAttributesAnimator.swift */; };
 		AA0F7FA02CF0D80900D345F4 /* LoggerModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0F7F9F2CF0D80900D345F4 /* LoggerModule.swift */; };
+		AA0F7FA22CF0E11500D345F4 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0F7FA12CF0E11500D345F4 /* Toast.swift */; };
 		AA1A8BA3DE839D850995797ED37BFAF6 /* FPRNetworkTrace+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB6889EFC16FDBF82032FF311111479 /* FPRNetworkTrace+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AA41742627787258762293C387123567 /* BundleImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF86681CD910F5723581E640ACF409A /* BundleImageProvider.swift */; };
 		AA485F286F353716292975175979AD11 /* RxTextViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0685EAB236BD1B5D9BE93AD9A45C98BC /* RxTextViewDelegateProxy.swift */; };
@@ -4180,6 +4181,7 @@
 		A9DD16C7E980F3CC4A2F2BED87D1FCF2 /* Ellipse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ellipse.swift; path = Sources/Private/Model/ShapeItems/Ellipse.swift; sourceTree = "<group>"; };
 		A9F4DEC68A1E5FD2D6D344F758D7ACB4 /* FPRNSURLConnectionInstrument_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPRNSURLConnectionInstrument_Private.h; path = FirebasePerformance/Sources/Instrumentation/Network/FPRNSURLConnectionInstrument_Private.h; sourceTree = "<group>"; };
 		AA0F7F9F2CF0D80900D345F4 /* LoggerModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerModule.swift; sourceTree = "<group>"; };
+		AA0F7FA12CF0E11500D345F4 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		AA264B1498FF09EB493C8A6B2B5FE17D /* UIViewConfiguringSwiftUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewConfiguringSwiftUIView.swift; path = Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/UIViewConfiguringSwiftUIView.swift; sourceTree = "<group>"; };
 		AA33B3667358412C062D2859934C2B8C /* FIRStackFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRStackFrame.m; path = Crashlytics/Crashlytics/FIRStackFrame.m; sourceTree = "<group>"; };
 		AA4013F0102F0CD8934C7C058E62CAAB /* FIRCurrentDateProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCurrentDateProvider.h; path = FirebaseInstallations/Source/Library/InstallationsIDController/FIRCurrentDateProvider.h; sourceTree = "<group>"; };
@@ -6870,6 +6872,7 @@
 			isa = PBXGroup;
 			children = (
 				AA0F7F9F2CF0D80900D345F4 /* LoggerModule.swift */,
+				AA0F7FA12CF0E11500D345F4 /* Toast.swift */,
 				CD892DEC10A51CB045BE445C07BE4ADB /* Pod */,
 				87B2D8A01007959CCDACDE8971B52E18 /* Support Files */,
 			);
@@ -11525,6 +11528,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6758A12CC1258FF0F9E63832BA71C377 /* GlobalModule-dummy.m in Sources */,
+				AA0F7FA22CF0E11500D345F4 /* Toast.swift in Sources */,
 				AA0F7FA02CF0D80900D345F4 /* LoggerModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
