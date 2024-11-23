@@ -36,6 +36,7 @@ Pod::Spec.new do |spec|
         core.dependency 'RxAlamofire'
         core.dependency 'netfox'
         core.dependency 'lottie-ios'
+        core.dependency 'CryptoSwift'
         core.dependency 'IQKeyboardManagerSwift'
         core.dependency 'FittedSheets', '1.3.0'
         core.dependency 'PhoneNumberKit', '~> 3.3'
