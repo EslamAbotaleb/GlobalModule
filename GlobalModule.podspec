@@ -38,6 +38,7 @@ Pod::Spec.new do |spec|
         core.dependency 'lottie-ios'
         core.dependency 'IQKeyboardManagerSwift'
         core.dependency 'FittedSheets', '1.3.0'
+        core.dependency 'PhoneNumberKit', '~> 3.3'
     end
     spec.subspec 'Image' do |image|
         image.dependency 'Kingfisher'
