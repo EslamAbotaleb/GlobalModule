@@ -17,7 +17,7 @@ GlobalModule is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'GlobalModule'
+ pod 'GlobalModule', :git => 'https://github.com/EslamAbotaleb/GlobalModule.git', :branch => "master"
 ```
 
 ## Author
@@ -27,3 +27,10 @@ EslamAbotaleb, eslamabotaleb07@gmail.com
 ## License
 
 GlobalModule is available under the MIT license. See the LICENSE file for more info.
+
+## Publishing 
+
+This custom module has not yet been published for the cocoa pods, once this module published you can use 
+```ruby
+ pod 'GlobalModule'
+```
