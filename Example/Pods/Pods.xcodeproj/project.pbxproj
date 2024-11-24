@@ -3913,7 +3913,7 @@
 		7372912F69DD7CCB708B3BA8D99964A6 /* FIRComponentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRComponentType.h; path = FirebaseCore/Extension/FIRComponentType.h; sourceTree = "<group>"; };
 		73BFC97813BDFAC495A08B299FC83E35 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/Core/ParameterEncoder.swift; sourceTree = "<group>"; };
 		73CAA363BA491A87BE30F1AE14F58B7E /* GULAppEnvironmentUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULAppEnvironmentUtil.h; path = GoogleUtilities/Environment/Public/GoogleUtilities/GULAppEnvironmentUtil.h; sourceTree = "<group>"; };
-		73CB87E6D0D895A5A456CC13FBDB6345 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = GlobalModule/Classes/Toast.swift; sourceTree = "<group>"; };
+		73CB87E6D0D895A5A456CC13FBDB6345 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = ../GlobalModule/Classes/Common/Toast.swift; sourceTree = "<group>"; };
 		73D858975A3F5F15596FEEAF02C5BF61 /* GULNetworkURLSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetworkURLSession.m; path = GoogleUtilities/Network/GULNetworkURLSession.m; sourceTree = "<group>"; };
 		7442EB2BBE8A5A471AE8FA2D662986F8 /* FIRComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRComponent.h; path = FirebaseCore/Extension/FIRComponent.h; sourceTree = "<group>"; };
 		74A3BFB4B767BEEF5500ADB8415A46E0 /* SerializationException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerializationException.swift; path = Sources/SerializationException.swift; sourceTree = "<group>"; };
@@ -4998,7 +4998,7 @@
 		F434D9D63434DFEB4EE16E09F4CEAC86 /* FIRMessagingTokenOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRMessagingTokenOperation.h; path = FirebaseMessaging/Sources/Token/FIRMessagingTokenOperation.h; sourceTree = "<group>"; };
 		F446C1DF7F7966C76DE5C94256F499D3 /* Zip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zip.swift; path = RxSwift/Observables/Zip.swift; sourceTree = "<group>"; };
 		F46BFA6853407F4CEDDAEC229CDAF34B /* RxSearchBarDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxSearchBarDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxSearchBarDelegateProxy.swift; sourceTree = "<group>"; };
-		F4743B822A32790F234317FDC340EAEC /* LoggerModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggerModule.swift; path = GlobalModule/Classes/LoggerModule.swift; sourceTree = "<group>"; };
+		F4743B822A32790F234317FDC340EAEC /* LoggerModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggerModule.swift; path = ../GlobalModule/Classes/Common/LoggerModule.swift; sourceTree = "<group>"; };
 		F4ABED750CDD7FB5170C8E8220D21828 /* RCNPersonalization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCNPersonalization.m; path = FirebaseRemoteConfig/Sources/RCNPersonalization.m; sourceTree = "<group>"; };
 		F4D4F6CB946EEA6BAFAF02C5D7A65B4E /* NSObject+Rx+RawRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Rx+RawRepresentable.swift"; path = "RxCocoa/Foundation/NSObject+Rx+RawRepresentable.swift"; sourceTree = "<group>"; };
 		F4EE91603414C7C0CB78F6E7E03CA972 /* FIRCLSRecordBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRCLSRecordBase.m; path = Crashlytics/Crashlytics/Models/Record/FIRCLSRecordBase.m; sourceTree = "<group>"; };
@@ -6707,8 +6707,7 @@
 		567D1978AB9BDFDEE5EE2911BAEFD173 /* GlobalModule */ = {
 			isa = PBXGroup;
 			children = (
-				F4743B822A32790F234317FDC340EAEC /* LoggerModule.swift */,
-				73CB87E6D0D895A5A456CC13FBDB6345 /* Toast.swift */,
+				AABFEFE92CF36C8000BCDA0B /* Common */,
 				74E193975E8BFC2EE1C7429A97230A04 /* Pod */,
 				4F3509DB2F34F4C848C953B52FC0D863 /* Support Files */,
 			);
@@ -7480,6 +7479,15 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/EzPopup";
+			sourceTree = "<group>";
+		};
+		AABFEFE92CF36C8000BCDA0B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F4743B822A32790F234317FDC340EAEC /* LoggerModule.swift */,
+				73CB87E6D0D895A5A456CC13FBDB6345 /* Toast.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		AB62B071667FBC118623CC0455F7EF77 /* Resources */ = {
