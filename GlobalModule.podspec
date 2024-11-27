@@ -29,6 +29,8 @@ Pod::Spec.new do |spec|
     # s.resource_bundles = {
     #   'GlobalModule' => ['GlobalModule/Assets/*.png']
     # }
+    # Add DRPLoadingSpinner dependency
+    
     spec.subspec 'Core' do |core|
         core.dependency 'Alamofire'
         core.dependency 'RxSwift'
@@ -67,7 +69,7 @@ Pod::Spec.new do |spec|
         firebase.dependency 'FirebaseCrashlytics'
         firebase.dependency 'FirebasePerformance'
     end
-    spec.default_subspec = 'Core','Image','FirebaseCore','Popup','HTML','Language','Layout'
+    spec.default_subspec = 'Core','Image','FirebaseCore','Popup','HTML','Language','Layout','LoadingSpinner'
     spec.frameworks = 'UIKit'
 #    spec.public_header_files = 'Pod/Classes/**/*.h'
 end

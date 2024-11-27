@@ -4387,6 +4387,15 @@
 		AA9AFD4BE3F5B91655AC84211287170A /* FIRInstallationsAuthTokenResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstallationsAuthTokenResult.m; path = FirebaseInstallations/Source/Library/FIRInstallationsAuthTokenResult.m; sourceTree = "<group>"; };
 		AAA426541D1E296391010F7EE74B278D /* LocalOverrideSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalOverrideSettings.swift; path = FirebaseSessions/Sources/Settings/LocalOverrideSettings.swift; sourceTree = "<group>"; };
 		AAADD2E97CE420769D7AFD33E652A476 /* FIRCLSMachException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSMachException.h; path = Crashlytics/Crashlytics/Handlers/FIRCLSMachException.h; sourceTree = "<group>"; };
+		AAF7FB3D2CF7103100D65DB7 /* DRPLoadingSpinner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRPLoadingSpinner.h; sourceTree = "<group>"; };
+		AAF7FB3E2CF7103100D65DB7 /* DRPLoadingSpinner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRPLoadingSpinner.m; sourceTree = "<group>"; };
+		AAF7FB3F2CF7103100D65DB7 /* DRPLoadingSpinnerTimingFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRPLoadingSpinnerTimingFunction.h; sourceTree = "<group>"; };
+		AAF7FB402CF7103100D65DB7 /* DRPLoadingSpinnerTimingFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRPLoadingSpinnerTimingFunction.m; sourceTree = "<group>"; };
+		AAF7FB412CF7103100D65DB7 /* DRPRefreshControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRPRefreshControl.h; sourceTree = "<group>"; };
+		AAF7FB422CF7103100D65DB7 /* DRPRefreshControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRPRefreshControl.m; sourceTree = "<group>"; };
+		AAF7FB432CF7103100D65DB7 /* DRPRefreshControl_Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRPRefreshControl_Protected.h; sourceTree = "<group>"; };
+		AAF7FB452CF7103100D65DB7 /* DRPRefreshControl+Texture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DRPRefreshControl+Texture.h"; sourceTree = "<group>"; };
+		AAF7FB462CF7103100D65DB7 /* DRPRefreshControl+Texture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DRPRefreshControl+Texture.m"; sourceTree = "<group>"; };
 		AB03D851931A8058A3536D21B07668D9 /* FPRGDTRateLimiter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FPRGDTRateLimiter.m; path = FirebasePerformance/Sources/Loggers/FPRGDTRateLimiter.m; sourceTree = "<group>"; };
 		AB0D2FBD707435141C97E6AEF9AB7DCD /* UIView+Transitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Transitions.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UIView+Transitions.swift"; sourceTree = "<group>"; };
 		AB1B9157FB377476BD230A03C699AA23 /* FIRInstallationsStoredAuthToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstallationsStoredAuthToken.h; path = FirebaseInstallations/Source/Library/InstallationsStore/FIRInstallationsStoredAuthToken.h; sourceTree = "<group>"; };
@@ -6707,6 +6716,7 @@
 		567D1978AB9BDFDEE5EE2911BAEFD173 /* GlobalModule */ = {
 			isa = PBXGroup;
 			children = (
+				AAF7FB3B2CF70D2600D65DB7 /* Packages */,
 				AABFEFE92CF36C8000BCDA0B /* Common */,
 				74E193975E8BFC2EE1C7429A97230A04 /* Pod */,
 				4F3509DB2F34F4C848C953B52FC0D863 /* Support Files */,
@@ -7488,6 +7498,54 @@
 				73CB87E6D0D895A5A456CC13FBDB6345 /* Toast.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		AAF7FB3B2CF70D2600D65DB7 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				AAF7FB3C2CF70D3500D65DB7 /* DRPLoadingSpinner */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		AAF7FB3C2CF70D3500D65DB7 /* DRPLoadingSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				AAF7FB482CF7103100D65DB7 /* src */,
+			);
+			path = DRPLoadingSpinner;
+			sourceTree = "<group>";
+		};
+		AAF7FB442CF7103100D65DB7 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				AAF7FB3D2CF7103100D65DB7 /* DRPLoadingSpinner.h */,
+				AAF7FB3E2CF7103100D65DB7 /* DRPLoadingSpinner.m */,
+				AAF7FB3F2CF7103100D65DB7 /* DRPLoadingSpinnerTimingFunction.h */,
+				AAF7FB402CF7103100D65DB7 /* DRPLoadingSpinnerTimingFunction.m */,
+				AAF7FB412CF7103100D65DB7 /* DRPRefreshControl.h */,
+				AAF7FB422CF7103100D65DB7 /* DRPRefreshControl.m */,
+				AAF7FB432CF7103100D65DB7 /* DRPRefreshControl_Protected.h */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		AAF7FB472CF7103100D65DB7 /* texture */ = {
+			isa = PBXGroup;
+			children = (
+				AAF7FB452CF7103100D65DB7 /* DRPRefreshControl+Texture.h */,
+				AAF7FB462CF7103100D65DB7 /* DRPRefreshControl+Texture.m */,
+			);
+			path = texture;
+			sourceTree = "<group>";
+		};
+		AAF7FB482CF7103100D65DB7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AAF7FB442CF7103100D65DB7 /* core */,
+				AAF7FB472CF7103100D65DB7 /* texture */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 		AB62B071667FBC118623CC0455F7EF77 /* Resources */ = {
