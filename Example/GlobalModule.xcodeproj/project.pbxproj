@@ -93,7 +93,6 @@
 		607FACD21AFB9204008FA782 /* Example for GlobalModule */ = {
 			isa = PBXGroup;
 			children = (
-				AA11B1B12CF762DE000CFE50 /* Controls */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -147,13 +146,6 @@
 				E570A366EFC2755F5490DBD2 /* Pods_GlobalModule_Tests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AA11B1B12CF762DE000CFE50 /* Controls */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controls;
 			sourceTree = "<group>";
 		};
 		E78794151990DE0D16E26F3A /* Pods */ = {
