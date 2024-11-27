@@ -4989,6 +4989,15 @@
 		A96140335E9CD22C19F9E8B3ADCD0809 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/CryptoSwift/Operators.swift; sourceTree = "<group>"; };
 		A9C4CC732059BFA7CB4312BB11EE0B5D /* GradientStroke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientStroke.swift; path = Sources/Private/Model/ShapeItems/GradientStroke.swift; sourceTree = "<group>"; };
 		A9DEF8D2F24919A7A689BBC22D828CD7 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/Core/SessionDelegate.swift; sourceTree = "<group>"; };
+		AA11B1812CF75C8F000CFE50 /* DRPLoadingSpinner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRPLoadingSpinner.h; sourceTree = "<group>"; };
+		AA11B1822CF75C8F000CFE50 /* DRPLoadingSpinner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRPLoadingSpinner.m; sourceTree = "<group>"; };
+		AA11B1832CF75C8F000CFE50 /* DRPLoadingSpinnerTimingFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRPLoadingSpinnerTimingFunction.h; sourceTree = "<group>"; };
+		AA11B1842CF75C8F000CFE50 /* DRPLoadingSpinnerTimingFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRPLoadingSpinnerTimingFunction.m; sourceTree = "<group>"; };
+		AA11B1852CF75C8F000CFE50 /* DRPRefreshControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRPRefreshControl.h; sourceTree = "<group>"; };
+		AA11B1862CF75C8F000CFE50 /* DRPRefreshControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRPRefreshControl.m; sourceTree = "<group>"; };
+		AA11B1872CF75C8F000CFE50 /* DRPRefreshControl_Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRPRefreshControl_Protected.h; sourceTree = "<group>"; };
+		AA11B1892CF75C8F000CFE50 /* DRPRefreshControl+Texture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DRPRefreshControl+Texture.h"; sourceTree = "<group>"; };
+		AA11B18A2CF75C8F000CFE50 /* DRPRefreshControl+Texture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DRPRefreshControl+Texture.m"; sourceTree = "<group>"; };
 		AA14BE1DAEAD13545CD82CC348454C9B /* FIRCLSUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSUtility.h; path = Crashlytics/Crashlytics/Helpers/FIRCLSUtility.h; sourceTree = "<group>"; };
 		AA18DA49460D31EF224DD23FF4BE19D1 /* Strideable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strideable.swift; path = Sources/CryptoSwift/CS_BigInt/Strideable.swift; sourceTree = "<group>"; };
 		AA3E8882A5C7A278DF784FE42C79134D /* Yalta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Yalta.swift; path = FittedSheetsPod/Yalta.swift; sourceTree = "<group>"; };
@@ -8164,6 +8173,7 @@
 		79B70E5842EA7057FC6540628F88FFA4 /* GlobalModule */ = {
 			isa = PBXGroup;
 			children = (
+				AA11B17F2CF75C72000CFE50 /* Packages */,
 				D05D7AEC71E6F798D40287118672E547 /* LoggerModule.swift */,
 				FDE4BAFE73EEEE77AEA7AD6CC691E0F9 /* Toast.swift */,
 				D67E6852C059BBFD74F168C92A8A3797 /* Pod */,
@@ -8688,6 +8698,54 @@
 				CF9809A0E66A6C2E6E1F974ADE36440A /* Support Files */,
 			);
 			path = DRPLoadingSpinner;
+			sourceTree = "<group>";
+		};
+		AA11B17F2CF75C72000CFE50 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				AA11B1802CF75C7C000CFE50 /* DRPLoadingSpinner */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		AA11B1802CF75C7C000CFE50 /* DRPLoadingSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				AA11B18C2CF75C8F000CFE50 /* src */,
+			);
+			path = DRPLoadingSpinner;
+			sourceTree = "<group>";
+		};
+		AA11B1882CF75C8F000CFE50 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				AA11B1812CF75C8F000CFE50 /* DRPLoadingSpinner.h */,
+				AA11B1822CF75C8F000CFE50 /* DRPLoadingSpinner.m */,
+				AA11B1832CF75C8F000CFE50 /* DRPLoadingSpinnerTimingFunction.h */,
+				AA11B1842CF75C8F000CFE50 /* DRPLoadingSpinnerTimingFunction.m */,
+				AA11B1852CF75C8F000CFE50 /* DRPRefreshControl.h */,
+				AA11B1862CF75C8F000CFE50 /* DRPRefreshControl.m */,
+				AA11B1872CF75C8F000CFE50 /* DRPRefreshControl_Protected.h */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		AA11B18B2CF75C8F000CFE50 /* texture */ = {
+			isa = PBXGroup;
+			children = (
+				AA11B1892CF75C8F000CFE50 /* DRPRefreshControl+Texture.h */,
+				AA11B18A2CF75C8F000CFE50 /* DRPRefreshControl+Texture.m */,
+			);
+			path = texture;
+			sourceTree = "<group>";
+		};
+		AA11B18C2CF75C8F000CFE50 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AA11B1882CF75C8F000CFE50 /* core */,
+				AA11B18B2CF75C8F000CFE50 /* texture */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 		AA3CAA448FD75E33BCBEFD5024741C9D /* CoreOnly */ = {
