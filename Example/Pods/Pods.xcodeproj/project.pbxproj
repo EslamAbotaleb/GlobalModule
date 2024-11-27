@@ -4988,6 +4988,15 @@
 		A96140335E9CD22C19F9E8B3ADCD0809 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/CryptoSwift/Operators.swift; sourceTree = "<group>"; };
 		A9C4CC732059BFA7CB4312BB11EE0B5D /* GradientStroke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientStroke.swift; path = Sources/Private/Model/ShapeItems/GradientStroke.swift; sourceTree = "<group>"; };
 		A9DEF8D2F24919A7A689BBC22D828CD7 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/Core/SessionDelegate.swift; sourceTree = "<group>"; };
+		AA11B1A42CF76231000CFE50 /* DPDConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPDConstants.swift; sourceTree = "<group>"; };
+		AA11B1A52CF76231000CFE50 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		AA11B1A62CF76231000CFE50 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		AA11B1A82CF76231000CFE50 /* DropDownCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropDownCell.xib; sourceTree = "<group>"; };
+		AA11B1AA2CF76231000CFE50 /* DropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
+		AA11B1AB2CF76231000CFE50 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		AA11B1AC2CF76231000CFE50 /* DropDownCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
+		AA11B1AE2CF76231000CFE50 /* DropDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropDown.h; sourceTree = "<group>"; };
+		AA11B1AF2CF76231000CFE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA14BE1DAEAD13545CD82CC348454C9B /* FIRCLSUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSUtility.h; path = Crashlytics/Crashlytics/Helpers/FIRCLSUtility.h; sourceTree = "<group>"; };
 		AA18DA49460D31EF224DD23FF4BE19D1 /* Strideable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strideable.swift; path = Sources/CryptoSwift/CS_BigInt/Strideable.swift; sourceTree = "<group>"; };
 		AA3E8882A5C7A278DF784FE42C79134D /* Yalta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Yalta.swift; path = FittedSheetsPod/Yalta.swift; sourceTree = "<group>"; };
@@ -8691,8 +8700,49 @@
 		AA11B17F2CF75C72000CFE50 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				AA11B1B02CF76231000CFE50 /* DropDown */,
 			);
 			path = Packages;
+			sourceTree = "<group>";
+		};
+		AA11B1A72CF76231000CFE50 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AA11B1A42CF76231000CFE50 /* DPDConstants.swift */,
+				AA11B1A52CF76231000CFE50 /* DPDKeyboardListener.swift */,
+				AA11B1A62CF76231000CFE50 /* DPDUIView+Extension.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		AA11B1A92CF76231000CFE50 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA11B1A82CF76231000CFE50 /* DropDownCell.xib */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		AA11B1AD2CF76231000CFE50 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AA11B1AA2CF76231000CFE50 /* DropDown.swift */,
+				AA11B1AB2CF76231000CFE50 /* DropDown+Appearance.swift */,
+				AA11B1AC2CF76231000CFE50 /* DropDownCell.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		AA11B1B02CF76231000CFE50 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				AA11B1A72CF76231000CFE50 /* helpers */,
+				AA11B1A92CF76231000CFE50 /* resources */,
+				AA11B1AD2CF76231000CFE50 /* src */,
+				AA11B1AE2CF76231000CFE50 /* DropDown.h */,
+				AA11B1AF2CF76231000CFE50 /* Info.plist */,
+			);
+			path = DropDown;
 			sourceTree = "<group>";
 		};
 		AA3CAA448FD75E33BCBEFD5024741C9D /* CoreOnly */ = {
