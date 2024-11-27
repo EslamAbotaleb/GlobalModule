@@ -4997,6 +4997,15 @@
 		AA11B1AC2CF76231000CFE50 /* DropDownCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
 		AA11B1AE2CF76231000CFE50 /* DropDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropDown.h; sourceTree = "<group>"; };
 		AA11B1AF2CF76231000CFE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA11B1E32CF76A3C000CFE50 /* DRPLoadingSpinner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRPLoadingSpinner.h; sourceTree = "<group>"; };
+		AA11B1E42CF76A3C000CFE50 /* DRPLoadingSpinner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRPLoadingSpinner.m; sourceTree = "<group>"; };
+		AA11B1E52CF76A3C000CFE50 /* DRPLoadingSpinnerTimingFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRPLoadingSpinnerTimingFunction.h; sourceTree = "<group>"; };
+		AA11B1E62CF76A3C000CFE50 /* DRPLoadingSpinnerTimingFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRPLoadingSpinnerTimingFunction.m; sourceTree = "<group>"; };
+		AA11B1E72CF76A3C000CFE50 /* DRPRefreshControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRPRefreshControl.h; sourceTree = "<group>"; };
+		AA11B1E82CF76A3C000CFE50 /* DRPRefreshControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRPRefreshControl.m; sourceTree = "<group>"; };
+		AA11B1E92CF76A3C000CFE50 /* DRPRefreshControl_Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRPRefreshControl_Protected.h; sourceTree = "<group>"; };
+		AA11B1EB2CF76A3C000CFE50 /* DRPRefreshControl+Texture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DRPRefreshControl+Texture.h"; sourceTree = "<group>"; };
+		AA11B1EC2CF76A3C000CFE50 /* DRPRefreshControl+Texture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DRPRefreshControl+Texture.m"; sourceTree = "<group>"; };
 		AA14BE1DAEAD13545CD82CC348454C9B /* FIRCLSUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSUtility.h; path = Crashlytics/Crashlytics/Helpers/FIRCLSUtility.h; sourceTree = "<group>"; };
 		AA18DA49460D31EF224DD23FF4BE19D1 /* Strideable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strideable.swift; path = Sources/CryptoSwift/CS_BigInt/Strideable.swift; sourceTree = "<group>"; };
 		AA3E8882A5C7A278DF784FE42C79134D /* Yalta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Yalta.swift; path = FittedSheetsPod/Yalta.swift; sourceTree = "<group>"; };
@@ -8700,6 +8709,7 @@
 		AA11B17F2CF75C72000CFE50 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				AA11B1E22CF76A26000CFE50 /* DRPLoadingSpinner */,
 				AA11B1B02CF76231000CFE50 /* DropDown */,
 			);
 			path = Packages;
@@ -8743,6 +8753,46 @@
 				AA11B1AF2CF76231000CFE50 /* Info.plist */,
 			);
 			path = DropDown;
+			sourceTree = "<group>";
+		};
+		AA11B1E22CF76A26000CFE50 /* DRPLoadingSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				AA11B1EE2CF76A3C000CFE50 /* src */,
+			);
+			path = DRPLoadingSpinner;
+			sourceTree = "<group>";
+		};
+		AA11B1EA2CF76A3C000CFE50 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				AA11B1E32CF76A3C000CFE50 /* DRPLoadingSpinner.h */,
+				AA11B1E42CF76A3C000CFE50 /* DRPLoadingSpinner.m */,
+				AA11B1E52CF76A3C000CFE50 /* DRPLoadingSpinnerTimingFunction.h */,
+				AA11B1E62CF76A3C000CFE50 /* DRPLoadingSpinnerTimingFunction.m */,
+				AA11B1E72CF76A3C000CFE50 /* DRPRefreshControl.h */,
+				AA11B1E82CF76A3C000CFE50 /* DRPRefreshControl.m */,
+				AA11B1E92CF76A3C000CFE50 /* DRPRefreshControl_Protected.h */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		AA11B1ED2CF76A3C000CFE50 /* texture */ = {
+			isa = PBXGroup;
+			children = (
+				AA11B1EB2CF76A3C000CFE50 /* DRPRefreshControl+Texture.h */,
+				AA11B1EC2CF76A3C000CFE50 /* DRPRefreshControl+Texture.m */,
+			);
+			path = texture;
+			sourceTree = "<group>";
+		};
+		AA11B1EE2CF76A3C000CFE50 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AA11B1EA2CF76A3C000CFE50 /* core */,
+				AA11B1ED2CF76A3C000CFE50 /* texture */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 		AA3CAA448FD75E33BCBEFD5024741C9D /* CoreOnly */ = {
