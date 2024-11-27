@@ -69,7 +69,7 @@ Pod::Spec.new do |spec|
         firebase.dependency 'FirebaseCrashlytics'
         firebase.dependency 'FirebasePerformance'
     end
-    spec.default_subspec = 'Core','Image','FirebaseCore','Popup','HTML','Language','Layout','LoadingSpinner'
+    spec.default_subspec = 'Core','Image','FirebaseCore','Popup','HTML','Language','Layout'
     spec.frameworks = 'UIKit'
 #    spec.public_header_files = 'Pod/Classes/**/*.h'
 end
