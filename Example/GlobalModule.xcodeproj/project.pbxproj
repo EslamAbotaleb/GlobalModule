@@ -14,14 +14,6 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		AA11B1BF2CF762EA000CFE50 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11B1B32CF762EA000CFE50 /* DPDKeyboardListener.swift */; };
-		AA11B1C02CF762EA000CFE50 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11B1B82CF762EA000CFE50 /* DropDown.swift */; };
-		AA11B1C12CF762EA000CFE50 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11B1BA2CF762EA000CFE50 /* DropDownCell.swift */; };
-		AA11B1C22CF762EA000CFE50 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11B1B92CF762EA000CFE50 /* DropDown+Appearance.swift */; };
-		AA11B1C32CF762EA000CFE50 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11B1B42CF762EA000CFE50 /* DPDUIView+Extension.swift */; };
-		AA11B1C42CF762EA000CFE50 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11B1B22CF762EA000CFE50 /* DPDConstants.swift */; };
-		AA11B1C52CF762EA000CFE50 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA11B1B62CF762EA000CFE50 /* DropDownCell.xib */; };
-		AA11B1C62CF762EA000CFE50 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA11B1BD2CF762EA000CFE50 /* Info.plist */; };
 		AC881D81B8DCAEDE49A010E5 /* Pods_GlobalModule_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E570A366EFC2755F5490DBD2 /* Pods_GlobalModule_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,15 +43,6 @@
 		676E52FCA60E2C0D8F0BF48A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6926BD829E8EAE3C41634821 /* GlobalModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GlobalModule.podspec; path = ../GlobalModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		709AA408C861E05CE37DB798 /* Pods-GlobalModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalModule_Example.release.xcconfig"; path = "Target Support Files/Pods-GlobalModule_Example/Pods-GlobalModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AA11B1B22CF762EA000CFE50 /* DPDConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPDConstants.swift; sourceTree = "<group>"; };
-		AA11B1B32CF762EA000CFE50 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPDKeyboardListener.swift; sourceTree = "<group>"; };
-		AA11B1B42CF762EA000CFE50 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DPDUIView+Extension.swift"; sourceTree = "<group>"; };
-		AA11B1B62CF762EA000CFE50 /* DropDownCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropDownCell.xib; sourceTree = "<group>"; };
-		AA11B1B82CF762EA000CFE50 /* DropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
-		AA11B1B92CF762EA000CFE50 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DropDown+Appearance.swift"; sourceTree = "<group>"; };
-		AA11B1BA2CF762EA000CFE50 /* DropDownCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
-		AA11B1BC2CF762EA000CFE50 /* DropDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropDown.h; sourceTree = "<group>"; };
-		AA11B1BD2CF762EA000CFE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0C8C9A47D528592D969FE26 /* Pods-GlobalModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GlobalModule_Tests/Pods-GlobalModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D79D50A6D172E0DE84983931 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E4271E4C517AAC73B9E26D0B /* Pods_GlobalModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlobalModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,50 +152,8 @@
 		AA11B1B12CF762DE000CFE50 /* Controls */ = {
 			isa = PBXGroup;
 			children = (
-				AA11B1BE2CF762EA000CFE50 /* DropDown */,
 			);
 			path = Controls;
-			sourceTree = "<group>";
-		};
-		AA11B1B52CF762EA000CFE50 /* helpers */ = {
-			isa = PBXGroup;
-			children = (
-				AA11B1B22CF762EA000CFE50 /* DPDConstants.swift */,
-				AA11B1B32CF762EA000CFE50 /* DPDKeyboardListener.swift */,
-				AA11B1B42CF762EA000CFE50 /* DPDUIView+Extension.swift */,
-			);
-			path = helpers;
-			sourceTree = "<group>";
-		};
-		AA11B1B72CF762EA000CFE50 /* resources */ = {
-			isa = PBXGroup;
-			children = (
-				AA11B1B62CF762EA000CFE50 /* DropDownCell.xib */,
-			);
-			path = resources;
-			sourceTree = "<group>";
-		};
-		AA11B1BB2CF762EA000CFE50 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				AA11B1B82CF762EA000CFE50 /* DropDown.swift */,
-				AA11B1B92CF762EA000CFE50 /* DropDown+Appearance.swift */,
-				AA11B1BA2CF762EA000CFE50 /* DropDownCell.swift */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		AA11B1BE2CF762EA000CFE50 /* DropDown */ = {
-			isa = PBXGroup;
-			children = (
-				AA11B1B52CF762EA000CFE50 /* helpers */,
-				AA11B1B72CF762EA000CFE50 /* resources */,
-				AA11B1BB2CF762EA000CFE50 /* src */,
-				AA11B1BC2CF762EA000CFE50 /* DropDown.h */,
-				AA11B1BD2CF762EA000CFE50 /* Info.plist */,
-			);
-			name = DropDown;
-			path = ../../../Packages/DropDown;
 			sourceTree = "<group>";
 		};
 		E78794151990DE0D16E26F3A /* Pods */ = {
@@ -315,8 +256,6 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				AA11B1C52CF762EA000CFE50 /* DropDownCell.xib in Resources */,
-				AA11B1C62CF762EA000CFE50 /* Info.plist in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,12 +427,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA11B1BF2CF762EA000CFE50 /* DPDKeyboardListener.swift in Sources */,
-				AA11B1C02CF762EA000CFE50 /* DropDown.swift in Sources */,
-				AA11B1C12CF762EA000CFE50 /* DropDownCell.swift in Sources */,
-				AA11B1C22CF762EA000CFE50 /* DropDown+Appearance.swift in Sources */,
-				AA11B1C32CF762EA000CFE50 /* DPDUIView+Extension.swift in Sources */,
-				AA11B1C42CF762EA000CFE50 /* DPDConstants.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
