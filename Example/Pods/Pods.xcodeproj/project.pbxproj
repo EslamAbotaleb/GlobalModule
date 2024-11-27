@@ -1589,7 +1589,6 @@
 		BA6BAB9D7D086219FB05DAD026579BD5 /* FIROptionsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 07C5637EB377984CFEFB086E850BAB44 /* FIROptionsInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BA74841742DA29A82D348E8F10799D90 /* KVORepresentable+CoreGraphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC1BFF9DE2CF6B90CCFB2F2027C9A1 /* KVORepresentable+CoreGraphics.swift */; };
 		BAA257245B928B59E067EF8F0021FF30 /* Infallible+CombineLatest+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E982059BF85FA9429394E2416A0028B /* Infallible+CombineLatest+Collection.swift */; };
-		BAB83A67BBA25118BBAEA35A26E2BFE1 /* LoggerModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05D7AEC71E6F798D40287118672E547 /* LoggerModule.swift */; };
 		BACE03596343C2C83670A3996164D2F0 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45788E2ED6018984720A1617F41310B /* RetryPolicy.swift */; };
 		BB03D3DAD3EAC7247336DD02176CD8BA /* IQKeyboardResignHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19DE40CA46249C9E287FF8BA497E466 /* IQKeyboardResignHandler.swift */; };
 		BB4EE0EC4C5542E3095D41FAA6F3548F /* Promise+Timeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA14E230C09AFD30C7CAC0590E4CC4 /* Promise+Timeout.swift */; };
@@ -4989,15 +4988,6 @@
 		A96140335E9CD22C19F9E8B3ADCD0809 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/CryptoSwift/Operators.swift; sourceTree = "<group>"; };
 		A9C4CC732059BFA7CB4312BB11EE0B5D /* GradientStroke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientStroke.swift; path = Sources/Private/Model/ShapeItems/GradientStroke.swift; sourceTree = "<group>"; };
 		A9DEF8D2F24919A7A689BBC22D828CD7 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/Core/SessionDelegate.swift; sourceTree = "<group>"; };
-		AA11B1812CF75C8F000CFE50 /* DRPLoadingSpinner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRPLoadingSpinner.h; sourceTree = "<group>"; };
-		AA11B1822CF75C8F000CFE50 /* DRPLoadingSpinner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRPLoadingSpinner.m; sourceTree = "<group>"; };
-		AA11B1832CF75C8F000CFE50 /* DRPLoadingSpinnerTimingFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRPLoadingSpinnerTimingFunction.h; sourceTree = "<group>"; };
-		AA11B1842CF75C8F000CFE50 /* DRPLoadingSpinnerTimingFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRPLoadingSpinnerTimingFunction.m; sourceTree = "<group>"; };
-		AA11B1852CF75C8F000CFE50 /* DRPRefreshControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRPRefreshControl.h; sourceTree = "<group>"; };
-		AA11B1862CF75C8F000CFE50 /* DRPRefreshControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRPRefreshControl.m; sourceTree = "<group>"; };
-		AA11B1872CF75C8F000CFE50 /* DRPRefreshControl_Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRPRefreshControl_Protected.h; sourceTree = "<group>"; };
-		AA11B1892CF75C8F000CFE50 /* DRPRefreshControl+Texture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DRPRefreshControl+Texture.h"; sourceTree = "<group>"; };
-		AA11B18A2CF75C8F000CFE50 /* DRPRefreshControl+Texture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DRPRefreshControl+Texture.m"; sourceTree = "<group>"; };
 		AA14BE1DAEAD13545CD82CC348454C9B /* FIRCLSUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSUtility.h; path = Crashlytics/Crashlytics/Helpers/FIRCLSUtility.h; sourceTree = "<group>"; };
 		AA18DA49460D31EF224DD23FF4BE19D1 /* Strideable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strideable.swift; path = Sources/CryptoSwift/CS_BigInt/Strideable.swift; sourceTree = "<group>"; };
 		AA3E8882A5C7A278DF784FE42C79134D /* Yalta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Yalta.swift; path = FittedSheetsPod/Yalta.swift; sourceTree = "<group>"; };
@@ -5350,7 +5340,6 @@
 		CFF6382DC8D78515BF76D4DA86250196 /* IQKeyboardManagerSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.release.xcconfig; sourceTree = "<group>"; };
 		D0484D2EAE9C7D3AC01FEE3380E1CACF /* lottie-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lottie-ios-prefix.pch"; sourceTree = "<group>"; };
 		D049E233059A636DE6B6F530F714F60E /* FirebaseCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FirebaseCore-umbrella.h"; sourceTree = "<group>"; };
-		D05D7AEC71E6F798D40287118672E547 /* LoggerModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggerModule.swift; path = GlobalModule/Classes/Common/LoggerModule.swift; sourceTree = "<group>"; };
 		D067429139B5E7CFC5FAE10E299B3CC9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		D0A550C7CA2A97BFB050AA49A5AC1AB3 /* Array+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Sort.swift"; path = "IQKeyboardToolbarManager/Classes/UIKitExtensions/Array+Sort.swift"; sourceTree = "<group>"; };
 		D0A9243E3F14317A437C3F216F09916F /* DRPLoadingSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DRPLoadingSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -8174,7 +8163,6 @@
 			isa = PBXGroup;
 			children = (
 				AA11B17F2CF75C72000CFE50 /* Packages */,
-				D05D7AEC71E6F798D40287118672E547 /* LoggerModule.swift */,
 				FDE4BAFE73EEEE77AEA7AD6CC691E0F9 /* Toast.swift */,
 				D67E6852C059BBFD74F168C92A8A3797 /* Pod */,
 				0B9E70FC738DFC125A3C8FE6E0E7F949 /* Support Files */,
@@ -8703,49 +8691,8 @@
 		AA11B17F2CF75C72000CFE50 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				AA11B1802CF75C7C000CFE50 /* DRPLoadingSpinner */,
 			);
 			path = Packages;
-			sourceTree = "<group>";
-		};
-		AA11B1802CF75C7C000CFE50 /* DRPLoadingSpinner */ = {
-			isa = PBXGroup;
-			children = (
-				AA11B18C2CF75C8F000CFE50 /* src */,
-			);
-			path = DRPLoadingSpinner;
-			sourceTree = "<group>";
-		};
-		AA11B1882CF75C8F000CFE50 /* core */ = {
-			isa = PBXGroup;
-			children = (
-				AA11B1812CF75C8F000CFE50 /* DRPLoadingSpinner.h */,
-				AA11B1822CF75C8F000CFE50 /* DRPLoadingSpinner.m */,
-				AA11B1832CF75C8F000CFE50 /* DRPLoadingSpinnerTimingFunction.h */,
-				AA11B1842CF75C8F000CFE50 /* DRPLoadingSpinnerTimingFunction.m */,
-				AA11B1852CF75C8F000CFE50 /* DRPRefreshControl.h */,
-				AA11B1862CF75C8F000CFE50 /* DRPRefreshControl.m */,
-				AA11B1872CF75C8F000CFE50 /* DRPRefreshControl_Protected.h */,
-			);
-			path = core;
-			sourceTree = "<group>";
-		};
-		AA11B18B2CF75C8F000CFE50 /* texture */ = {
-			isa = PBXGroup;
-			children = (
-				AA11B1892CF75C8F000CFE50 /* DRPRefreshControl+Texture.h */,
-				AA11B18A2CF75C8F000CFE50 /* DRPRefreshControl+Texture.m */,
-			);
-			path = texture;
-			sourceTree = "<group>";
-		};
-		AA11B18C2CF75C8F000CFE50 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				AA11B1882CF75C8F000CFE50 /* core */,
-				AA11B18B2CF75C8F000CFE50 /* texture */,
-			);
-			path = src;
 			sourceTree = "<group>";
 		};
 		AA3CAA448FD75E33BCBEFD5024741C9D /* CoreOnly */ = {
@@ -13613,7 +13560,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E02CAE2225B071E9595D472726235C6F /* GlobalModule-dummy.m in Sources */,
-				BAB83A67BBA25118BBAEA35A26E2BFE1 /* LoggerModule.swift in Sources */,
 				E8AD3F0A3BD16CF46F476A3437AA29B4 /* Toast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
