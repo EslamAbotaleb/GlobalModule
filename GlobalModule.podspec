@@ -29,7 +29,6 @@ Pod::Spec.new do |spec|
     # s.resource_bundles = {
     #   'GlobalModule' => ['GlobalModule/Assets/*.png']
     # }
-    # Add DRPLoadingSpinner dependency
     
     spec.subspec 'Core' do |core|
         core.dependency 'Alamofire'

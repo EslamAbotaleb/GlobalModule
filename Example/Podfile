@@ -3,7 +3,7 @@ use_frameworks!
 target 'GlobalModule_Example' do
   
   pod 'GlobalModule', :path => '../'
-
+  pod 'DRPLoadingSpinner'
   target 'GlobalModule_Tests' do
     inherit! :search_paths
   end
