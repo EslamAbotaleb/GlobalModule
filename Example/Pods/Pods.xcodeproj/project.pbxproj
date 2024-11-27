@@ -4997,6 +4997,12 @@
 		AA11B1AC2CF76231000CFE50 /* DropDownCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
 		AA11B1AE2CF76231000CFE50 /* DropDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropDown.h; sourceTree = "<group>"; };
 		AA11B1AF2CF76231000CFE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA11B1F02CF76D28000CFE50 /* CGRectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectExtension.swift; sourceTree = "<group>"; };
+		AA11B1F12CF76D28000CFE50 /* CustomTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionViewController.swift; sourceTree = "<group>"; };
+		AA11B1F22CF76D28000CFE50 /* FadeTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		AA11B1F32CF76D28000CFE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA11B1F42CF76D28000CFE50 /* SpinerLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinerLayer.swift; sourceTree = "<group>"; };
+		AA11B1F52CF76D28000CFE50 /* TransitionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionButton.swift; sourceTree = "<group>"; };
 		AA14BE1DAEAD13545CD82CC348454C9B /* FIRCLSUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSUtility.h; path = Crashlytics/Crashlytics/Helpers/FIRCLSUtility.h; sourceTree = "<group>"; };
 		AA18DA49460D31EF224DD23FF4BE19D1 /* Strideable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strideable.swift; path = Sources/CryptoSwift/CS_BigInt/Strideable.swift; sourceTree = "<group>"; };
 		AA3E8882A5C7A278DF784FE42C79134D /* Yalta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Yalta.swift; path = FittedSheetsPod/Yalta.swift; sourceTree = "<group>"; };
@@ -8700,6 +8706,7 @@
 		AA11B17F2CF75C72000CFE50 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				AA11B1EF2CF76D19000CFE50 /* TransitionButton */,
 				AA11B1B02CF76231000CFE50 /* DropDown */,
 			);
 			path = Packages;
@@ -8743,6 +8750,19 @@
 				AA11B1AF2CF76231000CFE50 /* Info.plist */,
 			);
 			path = DropDown;
+			sourceTree = "<group>";
+		};
+		AA11B1EF2CF76D19000CFE50 /* TransitionButton */ = {
+			isa = PBXGroup;
+			children = (
+				AA11B1F02CF76D28000CFE50 /* CGRectExtension.swift */,
+				AA11B1F12CF76D28000CFE50 /* CustomTransitionViewController.swift */,
+				AA11B1F22CF76D28000CFE50 /* FadeTransition.swift */,
+				AA11B1F32CF76D28000CFE50 /* Info.plist */,
+				AA11B1F42CF76D28000CFE50 /* SpinerLayer.swift */,
+				AA11B1F52CF76D28000CFE50 /* TransitionButton.swift */,
+			);
+			path = TransitionButton;
 			sourceTree = "<group>";
 		};
 		AA3CAA448FD75E33BCBEFD5024741C9D /* CoreOnly */ = {
