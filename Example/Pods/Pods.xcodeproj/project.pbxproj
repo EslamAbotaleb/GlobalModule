@@ -1471,6 +1471,7 @@
 		AA1A8BA3DE839D850995797ED37BFAF6 /* FPRNetworkTrace+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA810F2EAC09779D355366820501067 /* FPRNetworkTrace+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AA665152D21369ED72E902F90709459B /* UITextField+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D916BE0923FEAC4823EF960B90FBC4EE /* UITextField+Rx.swift */; };
 		AA70D3E4F41DE545AD6021058DE25309 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843F3C46A6C7D67AEFA9B15DF1F8B08 /* ImageTransition.swift */; };
+		AA78E9102CF8ABD6003B4D7E /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78E90F2CF8ABD6003B4D7E /* UILabel.swift */; };
 		AAB8AC6846A26280C123D661B86F1C27 /* FIRLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = B69692BD80B9AA58C461C272C74BBC8D /* FIRLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AAE9220060DE16934CAAFBB188809F0E /* BezierPathRoundExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A7D057D0536DC45F85705F141C794A /* BezierPathRoundExtension.swift */; };
 		AAEA9E53CB20135CFF199B90604954E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5433397F72CCF5C66ADCA7A683D73F79 /* Foundation.framework */; };
@@ -5035,6 +5036,7 @@
 		AA78E8FC2CF86085003B4D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA78E8FD2CF86085003B4D7E /* TrackingMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingMode.swift; sourceTree = "<group>"; };
 		AA78E8FE2CF86085003B4D7E /* UIImage+Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Blur.swift"; sourceTree = "<group>"; };
+		AA78E90F2CF8ABD6003B4D7E /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		AAA31CFD065F831C2A40E41A3EBE7DD3 /* Asset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Asset.swift; path = Sources/Private/Model/Assets/Asset.swift; sourceTree = "<group>"; };
 		AB2AFE6164D4FAB81AA2F06623F88A0A /* FirebaseMessaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseMessaging.release.xcconfig; sourceTree = "<group>"; };
 		AB311C98C6F95B2FF4A35FCB89E74A0A /* PhoneNumberParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberParser.swift; path = PhoneNumberKit/PhoneNumberParser.swift; sourceTree = "<group>"; };
@@ -8206,8 +8208,10 @@
 		79B70E5842EA7057FC6540628F88FFA4 /* GlobalModule */ = {
 			isa = PBXGroup;
 			children = (
-				AA11B17F2CF75C72000CFE50 /* Packages */,
 				FDE4BAFE73EEEE77AEA7AD6CC691E0F9 /* Toast.swift */,
+				AA78E90C2CF8AA1D003B4D7E /* Helper */,
+				AA78E9082CF8A9A3003B4D7E /* Extenstions */,
+				AA11B17F2CF75C72000CFE50 /* Packages */,
 				D67E6852C059BBFD74F168C92A8A3797 /* Pod */,
 				0B9E70FC738DFC125A3C8FE6E0E7F949 /* Support Files */,
 			);
@@ -8861,6 +8865,21 @@
 				AA78E8FE2CF86085003B4D7E /* UIImage+Blur.swift */,
 			);
 			path = DynamicBlurView;
+			sourceTree = "<group>";
+		};
+		AA78E9082CF8A9A3003B4D7E /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				AA78E90F2CF8ABD6003B4D7E /* UILabel.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		AA78E90C2CF8AA1D003B4D7E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		AB9CCA8A38DD939665798C0EB112F9F0 /* Resources */ = {
@@ -13720,6 +13739,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E02CAE2225B071E9595D472726235C6F /* GlobalModule-dummy.m in Sources */,
+				AA78E9102CF8ABD6003B4D7E /* UILabel.swift in Sources */,
 				E8AD3F0A3BD16CF46F476A3437AA29B4 /* Toast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
