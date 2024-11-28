@@ -9,7 +9,7 @@
 import UIKit
 import CryptoSwift
 
-extension String {
+public extension String {
 
     var isArabicString: Bool {
         let predicate = NSPredicate(format: "SELF MATCHES %@", "(?s).*\\p{Arabic}.*")
