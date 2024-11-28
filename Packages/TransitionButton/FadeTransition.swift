@@ -8,8 +8,8 @@
 
 import UIKit
 
-/*
-open class FadeTransition: NSObject, UIViewControllerAnimatedTransitioning {
+
+open class FadeTransitionButton: NSObject, UIViewControllerAnimatedTransitioning {
     var transitionDuration: TimeInterval = 0.5
     var startingAlpha: CGFloat = 0.0
 
@@ -44,4 +44,3 @@ open class FadeTransition: NSObject, UIViewControllerAnimatedTransitioning {
         })
     }
 }
-*/
