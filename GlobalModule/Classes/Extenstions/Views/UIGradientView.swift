@@ -10,22 +10,22 @@ import UIKit
 @IBDesignable
 public class UIGradientButton: LocalizedButton {
 
-    @IBInspectable var firstColor: UIColor = UIColor.clear{
+    @IBInspectable public var firstColor: UIColor = UIColor.clear{
         didSet{
             updateView()
         }
     }
-    @IBInspectable var secondColor: UIColor = UIColor.clear {
+    @IBInspectable public var secondColor: UIColor = UIColor.clear {
         didSet{
             updateView()
         }
     }
-    @IBInspectable var startPoint: CGPoint = CGPoint(x: 0, y: 0) {
+    @IBInspectable public var startPoint: CGPoint = CGPoint(x: 0, y: 0) {
         didSet{
             updateView()
         }
     }
-    @IBInspectable var endPoint: CGPoint = CGPoint(x: 1, y: 1) {
+    @IBInspectable public var endPoint: CGPoint = CGPoint(x: 1, y: 1) {
         didSet{
             updateView()
         }
