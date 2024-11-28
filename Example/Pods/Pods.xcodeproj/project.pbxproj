@@ -1486,6 +1486,7 @@
 		AA78E92B2CF8CC29003B4D7E /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78E92A2CF8CC29003B4D7E /* Gradient.swift */; };
 		AA78E92D2CF8CD32003B4D7E /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78E92C2CF8CD32003B4D7E /* UIImage+Extensions.swift */; };
 		AA78E92F2CF8D579003B4D7E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78E92E2CF8D579003B4D7E /* GradientView.swift */; };
+		AA78E9312CF8D6FB003B4D7E /* imageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78E9302CF8D6FB003B4D7E /* imageView+Extensions.swift */; };
 		AAB8AC6846A26280C123D661B86F1C27 /* FIRLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = B69692BD80B9AA58C461C272C74BBC8D /* FIRLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AAE9220060DE16934CAAFBB188809F0E /* BezierPathRoundExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A7D057D0536DC45F85705F141C794A /* BezierPathRoundExtension.swift */; };
 		AAEA9E53CB20135CFF199B90604954E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5433397F72CCF5C66ADCA7A683D73F79 /* Foundation.framework */; };
@@ -5065,6 +5066,7 @@
 		AA78E92A2CF8CC29003B4D7E /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
 		AA78E92C2CF8CD32003B4D7E /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		AA78E92E2CF8D579003B4D7E /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		AA78E9302CF8D6FB003B4D7E /* imageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "imageView+Extensions.swift"; sourceTree = "<group>"; };
 		AAA31CFD065F831C2A40E41A3EBE7DD3 /* Asset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Asset.swift; path = Sources/Private/Model/Assets/Asset.swift; sourceTree = "<group>"; };
 		AB2AFE6164D4FAB81AA2F06623F88A0A /* FirebaseMessaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseMessaging.release.xcconfig; sourceTree = "<group>"; };
 		AB311C98C6F95B2FF4A35FCB89E74A0A /* PhoneNumberParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberParser.swift; path = PhoneNumberKit/PhoneNumberParser.swift; sourceTree = "<group>"; };
@@ -8926,6 +8928,7 @@
 				AA78E9262CF8C641003B4D7E /* UITextField.swift */,
 				AA78E9282CF8CA9D003B4D7E /* CAGradientLayerExtensions.swift */,
 				AA78E92E2CF8D579003B4D7E /* GradientView.swift */,
+				AA78E9302CF8D6FB003B4D7E /* imageView+Extensions.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -13808,6 +13811,7 @@
 				AA78E9212CF8C19E003B4D7E /* UITableViewCell.swift in Sources */,
 				AA78E9232CF8C1AD003B4D7E /* UICollectionViewCell.swift in Sources */,
 				AA78E9102CF8ABD6003B4D7E /* UILabel.swift in Sources */,
+				AA78E9312CF8D6FB003B4D7E /* imageView+Extensions.swift in Sources */,
 				E8AD3F0A3BD16CF46F476A3437AA29B4 /* Toast.swift in Sources */,
 				AA78E9122CF8AF88003B4D7E /* UIButton.swift in Sources */,
 				AA78E9252CF8C38C003B4D7E /* UIGradientView.swift in Sources */,
