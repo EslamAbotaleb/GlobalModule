@@ -187,7 +187,7 @@ public extension Formatter {
     }()
 }
 
-extension Formatter {
+public extension Formatter {
     func getNextDayFormatter() -> DateFormatter? {
         let date = Date()
         let dayDate = Calendar.current.date(byAdding: .day, value: 1, to: date)
@@ -195,7 +195,7 @@ extension Formatter {
         return nextDayDateFormatter
     }
 }
-extension Date {
+public extension Date {
     var dayAfter: Date {
         return Calendar.current.date(byAdding: .day, value: 1, to: self)!
     }
