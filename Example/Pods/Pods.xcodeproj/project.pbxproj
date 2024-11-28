@@ -5035,6 +5035,8 @@
 		AA78E8FC2CF86085003B4D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA78E8FD2CF86085003B4D7E /* TrackingMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingMode.swift; sourceTree = "<group>"; };
 		AA78E8FE2CF86085003B4D7E /* UIImage+Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Blur.swift"; sourceTree = "<group>"; };
+		AA78E9002CF8647B003B4D7E /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		AA78E9012CF8647B003B4D7E /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		AAA31CFD065F831C2A40E41A3EBE7DD3 /* Asset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Asset.swift; path = Sources/Private/Model/Assets/Asset.swift; sourceTree = "<group>"; };
 		AB2AFE6164D4FAB81AA2F06623F88A0A /* FirebaseMessaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseMessaging.release.xcconfig; sourceTree = "<group>"; };
 		AB311C98C6F95B2FF4A35FCB89E74A0A /* PhoneNumberParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberParser.swift; path = PhoneNumberKit/PhoneNumberParser.swift; sourceTree = "<group>"; };
@@ -8206,6 +8208,7 @@
 		79B70E5842EA7057FC6540628F88FFA4 /* GlobalModule */ = {
 			isa = PBXGroup;
 			children = (
+				AA78E8FF2CF863FD003B4D7E /* Extenstions */,
 				AA11B17F2CF75C72000CFE50 /* Packages */,
 				FDE4BAFE73EEEE77AEA7AD6CC691E0F9 /* Toast.swift */,
 				D67E6852C059BBFD74F168C92A8A3797 /* Pod */,
@@ -8861,6 +8864,15 @@
 				AA78E8FE2CF86085003B4D7E /* UIImage+Blur.swift */,
 			);
 			path = DynamicBlurView;
+			sourceTree = "<group>";
+		};
+		AA78E8FF2CF863FD003B4D7E /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				AA78E9002CF8647B003B4D7E /* Array+Extensions.swift */,
+				AA78E9012CF8647B003B4D7E /* String+Extensions.swift */,
+			);
+			path = Extenstions;
 			sourceTree = "<group>";
 		};
 		AB9CCA8A38DD939665798C0EB112F9F0 /* Resources */ = {
