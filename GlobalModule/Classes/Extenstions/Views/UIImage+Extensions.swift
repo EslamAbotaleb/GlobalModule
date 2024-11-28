@@ -158,21 +158,7 @@ public extension UIImage {
     }
 
 }
-public extension UIImage {
 
-    convenience init(color: UIColor, size: CGSize) {
-
-        UIGraphicsBeginImageContextWithOptions(size, false, 1)
-        color.set()
-        let context = UIGraphicsGetCurrentContext()!
-        context.fill(CGRect(origin: .zero, size: size))
-
-
-        let image = UIGraphicsGetImageFromCurrentImageContext()!
-        UIGraphicsEndImageContext()
-        self.init(data: image.pngData()!)!
-    }
-}
 public extension UIImage {
     func tinted(with color: UIColor, isOpaque: Bool = false) -> UIImage? {
         let format = imageRendererFormat
@@ -233,5 +219,18 @@ public extension UIImage {
             ))
         }
         return scaledImage
+    }
+}
+public extension UIImage {
+    convenience init?(color: UIColor, size: CGSize? = CGSize(width: 1, height: 1)) {
+        let rect = CGRect(origin: .zero, size: size ?? CGSize(width: 0, height: 0))
+        UIGraphicsBeginImageContextWithOptions(rect.size, false, 0.0)
+        color.setFill()
+        UIRectFill(rect)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+
+        guard let cgImage = image!.cgImage else { return nil }
+        self.init(cgImage: cgImage)
     }
 }

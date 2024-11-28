@@ -222,17 +222,6 @@ public extension UIImage {
     }
 }
 public extension UIImage {
-    convenience init(color: UIColor, size: CGSize) {
-        UIGraphicsBeginImageContextWithOptions(size, false, 1)
-        color.set()
-        let context = UIGraphicsGetCurrentContext()!
-        context.fill(CGRect(origin: .zero, size: size))
-
-
-        let image = UIGraphicsGetImageFromCurrentImageContext()!
-        UIGraphicsEndImageContext()
-        self.init(data: image.pngData()!)!
-    }
     convenience init?(color: UIColor, size: CGSize? = CGSize(width: 1, height: 1)) {
         let rect = CGRect(origin: .zero, size: size ?? CGSize(width: 0, height: 0))
         UIGraphicsBeginImageContextWithOptions(rect.size, false, 0.0)
