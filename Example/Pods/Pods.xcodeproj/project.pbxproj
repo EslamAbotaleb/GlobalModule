@@ -5024,6 +5024,17 @@
 		AA78E8E22CF85B4A003B4D7E /* UIImageView+Calculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Calculations.swift"; sourceTree = "<group>"; };
 		AA78E8E32CF85B4A003B4D7E /* UIView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
 		AA78E8E42CF85B4A003B4D7E /* UIViewController+Visibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Visibility.swift"; sourceTree = "<group>"; };
+		AA78E8E82CF85D23003B4D7E /* BlurLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurLayer.swift; sourceTree = "<group>"; };
+		AA78E8E92CF85D23003B4D7E /* CALayer+Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Conversion.swift"; sourceTree = "<group>"; };
+		AA78E8EA2CF85D23003B4D7E /* CaptureQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureQuality.swift; sourceTree = "<group>"; };
+		AA78E8EB2CF85D23003B4D7E /* CGContext+CGImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGContext+CGImage.swift"; sourceTree = "<group>"; };
+		AA78E8EC2CF85D23003B4D7E /* CGImage+Accelerate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImage+Accelerate.swift"; sourceTree = "<group>"; };
+		AA78E8ED2CF85D23003B4D7E /* CGRect+Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Conversion.swift"; sourceTree = "<group>"; };
+		AA78E8EE2CF85D23003B4D7E /* DynamicBlurView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicBlurView.h; sourceTree = "<group>"; };
+		AA78E8EF2CF85D23003B4D7E /* DynamicBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicBlurView.swift; sourceTree = "<group>"; };
+		AA78E8F02CF85D23003B4D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA78E8F12CF85D23003B4D7E /* TrackingMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingMode.swift; sourceTree = "<group>"; };
+		AA78E8F22CF85D23003B4D7E /* UIImage+Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Blur.swift"; sourceTree = "<group>"; };
 		AAA31CFD065F831C2A40E41A3EBE7DD3 /* Asset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Asset.swift; path = Sources/Private/Model/Assets/Asset.swift; sourceTree = "<group>"; };
 		AB2AFE6164D4FAB81AA2F06623F88A0A /* FirebaseMessaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseMessaging.release.xcconfig; sourceTree = "<group>"; };
 		AB311C98C6F95B2FF4A35FCB89E74A0A /* PhoneNumberParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberParser.swift; path = PhoneNumberKit/PhoneNumberParser.swift; sourceTree = "<group>"; };
@@ -8724,6 +8735,7 @@
 		AA11B17F2CF75C72000CFE50 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				AA78E8E62CF85CDE003B4D7E /* DynamicBlurView */,
 				AA78E8D12CF859C1003B4D7E /* PopupDialog */,
 				AA11B1EF2CF76D19000CFE50 /* TransitionButton */,
 				AA11B1B02CF76231000CFE50 /* DropDown */,
@@ -8831,6 +8843,24 @@
 				AA78E8E42CF85B4A003B4D7E /* UIViewController+Visibility.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		AA78E8E62CF85CDE003B4D7E /* DynamicBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				AA78E8E82CF85D23003B4D7E /* BlurLayer.swift */,
+				AA78E8E92CF85D23003B4D7E /* CALayer+Conversion.swift */,
+				AA78E8EA2CF85D23003B4D7E /* CaptureQuality.swift */,
+				AA78E8EB2CF85D23003B4D7E /* CGContext+CGImage.swift */,
+				AA78E8EC2CF85D23003B4D7E /* CGImage+Accelerate.swift */,
+				AA78E8ED2CF85D23003B4D7E /* CGRect+Conversion.swift */,
+				AA78E8EE2CF85D23003B4D7E /* DynamicBlurView.h */,
+				AA78E8EF2CF85D23003B4D7E /* DynamicBlurView.swift */,
+				AA78E8F02CF85D23003B4D7E /* Info.plist */,
+				AA78E8F12CF85D23003B4D7E /* TrackingMode.swift */,
+				AA78E8F22CF85D23003B4D7E /* UIImage+Blur.swift */,
+			);
+			path = DynamicBlurView;
 			sourceTree = "<group>";
 		};
 		AB9CCA8A38DD939665798C0EB112F9F0 /* Resources */ = {
