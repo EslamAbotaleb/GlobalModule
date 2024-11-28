@@ -5006,6 +5006,24 @@
 		AA14BE1DAEAD13545CD82CC348454C9B /* FIRCLSUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSUtility.h; path = Crashlytics/Crashlytics/Helpers/FIRCLSUtility.h; sourceTree = "<group>"; };
 		AA18DA49460D31EF224DD23FF4BE19D1 /* Strideable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strideable.swift; path = Sources/CryptoSwift/CS_BigInt/Strideable.swift; sourceTree = "<group>"; };
 		AA3E8882A5C7A278DF784FE42C79134D /* Yalta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Yalta.swift; path = FittedSheetsPod/Yalta.swift; sourceTree = "<group>"; };
+		AA78E8D22CF85B4A003B4D7E /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		AA78E8D42CF85B4A003B4D7E /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		AA78E8D52CF85B4A003B4D7E /* InteractiveTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveTransition.swift; sourceTree = "<group>"; };
+		AA78E8D62CF85B4A003B4D7E /* PopupDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDialog.swift; sourceTree = "<group>"; };
+		AA78E8D72CF85B4A003B4D7E /* PopupDialog+Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PopupDialog+Keyboard.swift"; sourceTree = "<group>"; };
+		AA78E8D82CF85B4A003B4D7E /* PopupDialogButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDialogButton.swift; sourceTree = "<group>"; };
+		AA78E8D92CF85B4A003B4D7E /* PopupDialogContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDialogContainerView.swift; sourceTree = "<group>"; };
+		AA78E8DA2CF85B4A003B4D7E /* PopupDialogDefaultButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDialogDefaultButtons.swift; sourceTree = "<group>"; };
+		AA78E8DB2CF85B4A003B4D7E /* PopupDialogDefaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDialogDefaultView.swift; sourceTree = "<group>"; };
+		AA78E8DC2CF85B4A003B4D7E /* PopupDialogDefaultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDialogDefaultViewController.swift; sourceTree = "<group>"; };
+		AA78E8DD2CF85B4A003B4D7E /* PopupDialogOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDialogOverlayView.swift; sourceTree = "<group>"; };
+		AA78E8DE2CF85B4A003B4D7E /* PresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		AA78E8DF2CF85B4A003B4D7E /* PresentationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationManager.swift; sourceTree = "<group>"; };
+		AA78E8E02CF85B4A003B4D7E /* TransitionAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimations.swift; sourceTree = "<group>"; };
+		AA78E8E12CF85B4A003B4D7E /* TransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimator.swift; sourceTree = "<group>"; };
+		AA78E8E22CF85B4A003B4D7E /* UIImageView+Calculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Calculations.swift"; sourceTree = "<group>"; };
+		AA78E8E32CF85B4A003B4D7E /* UIView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
+		AA78E8E42CF85B4A003B4D7E /* UIViewController+Visibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Visibility.swift"; sourceTree = "<group>"; };
 		AAA31CFD065F831C2A40E41A3EBE7DD3 /* Asset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Asset.swift; path = Sources/Private/Model/Assets/Asset.swift; sourceTree = "<group>"; };
 		AB2AFE6164D4FAB81AA2F06623F88A0A /* FirebaseMessaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseMessaging.release.xcconfig; sourceTree = "<group>"; };
 		AB311C98C6F95B2FF4A35FCB89E74A0A /* PhoneNumberParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberParser.swift; path = PhoneNumberKit/PhoneNumberParser.swift; sourceTree = "<group>"; };
@@ -8706,6 +8724,7 @@
 		AA11B17F2CF75C72000CFE50 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				AA78E8D12CF859C1003B4D7E /* PopupDialog */,
 				AA11B1EF2CF76D19000CFE50 /* TransitionButton */,
 				AA11B1B02CF76231000CFE50 /* DropDown */,
 			);
@@ -8771,6 +8790,47 @@
 				4338F2B12637E060069DFB66FD849EEC /* Firebase.h */,
 			);
 			name = CoreOnly;
+			sourceTree = "<group>";
+		};
+		AA78E8D12CF859C1003B4D7E /* PopupDialog */ = {
+			isa = PBXGroup;
+			children = (
+				AA78E8D32CF85B4A003B4D7E /* Assets */,
+				AA78E8E52CF85B4A003B4D7E /* Classes */,
+			);
+			path = PopupDialog;
+			sourceTree = "<group>";
+		};
+		AA78E8D32CF85B4A003B4D7E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AA78E8D22CF85B4A003B4D7E /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		AA78E8E52CF85B4A003B4D7E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AA78E8D42CF85B4A003B4D7E /* .gitkeep */,
+				AA78E8D52CF85B4A003B4D7E /* InteractiveTransition.swift */,
+				AA78E8D62CF85B4A003B4D7E /* PopupDialog.swift */,
+				AA78E8D72CF85B4A003B4D7E /* PopupDialog+Keyboard.swift */,
+				AA78E8D82CF85B4A003B4D7E /* PopupDialogButton.swift */,
+				AA78E8D92CF85B4A003B4D7E /* PopupDialogContainerView.swift */,
+				AA78E8DA2CF85B4A003B4D7E /* PopupDialogDefaultButtons.swift */,
+				AA78E8DB2CF85B4A003B4D7E /* PopupDialogDefaultView.swift */,
+				AA78E8DC2CF85B4A003B4D7E /* PopupDialogDefaultViewController.swift */,
+				AA78E8DD2CF85B4A003B4D7E /* PopupDialogOverlayView.swift */,
+				AA78E8DE2CF85B4A003B4D7E /* PresentationController.swift */,
+				AA78E8DF2CF85B4A003B4D7E /* PresentationManager.swift */,
+				AA78E8E02CF85B4A003B4D7E /* TransitionAnimations.swift */,
+				AA78E8E12CF85B4A003B4D7E /* TransitionAnimator.swift */,
+				AA78E8E22CF85B4A003B4D7E /* UIImageView+Calculations.swift */,
+				AA78E8E32CF85B4A003B4D7E /* UIView+Animations.swift */,
+				AA78E8E42CF85B4A003B4D7E /* UIViewController+Visibility.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		AB9CCA8A38DD939665798C0EB112F9F0 /* Resources */ = {
