@@ -1477,6 +1477,7 @@
 		AA78E9192CF8B107003B4D7E /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78E9182CF8B107003B4D7E /* Date+Extensions.swift */; };
 		AA78E91B2CF8B264003B4D7E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78E91A2CF8B264003B4D7E /* UIColor.swift */; };
 		AA78E91D2CF8BCB6003B4D7E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78E91C2CF8BCB6003B4D7E /* UIView.swift */; };
+		AA78E91F2CF8C063003B4D7E /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78E91E2CF8C063003B4D7E /* Array+Extensions.swift */; };
 		AAB8AC6846A26280C123D661B86F1C27 /* FIRLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = B69692BD80B9AA58C461C272C74BBC8D /* FIRLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AAE9220060DE16934CAAFBB188809F0E /* BezierPathRoundExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A7D057D0536DC45F85705F141C794A /* BezierPathRoundExtension.swift */; };
 		AAEA9E53CB20135CFF199B90604954E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5433397F72CCF5C66ADCA7A683D73F79 /* Foundation.framework */; };
@@ -5047,6 +5048,7 @@
 		AA78E9182CF8B107003B4D7E /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		AA78E91A2CF8B264003B4D7E /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		AA78E91C2CF8BCB6003B4D7E /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		AA78E91E2CF8C063003B4D7E /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		AAA31CFD065F831C2A40E41A3EBE7DD3 /* Asset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Asset.swift; path = Sources/Private/Model/Assets/Asset.swift; sourceTree = "<group>"; };
 		AB2AFE6164D4FAB81AA2F06623F88A0A /* FirebaseMessaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseMessaging.release.xcconfig; sourceTree = "<group>"; };
 		AB311C98C6F95B2FF4A35FCB89E74A0A /* PhoneNumberParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberParser.swift; path = PhoneNumberKit/PhoneNumberParser.swift; sourceTree = "<group>"; };
@@ -8907,6 +8909,7 @@
 		AA78E9152CF8B053003B4D7E /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				AA78E91E2CF8C063003B4D7E /* Array+Extensions.swift */,
 				AA78E9182CF8B107003B4D7E /* Date+Extensions.swift */,
 				AA78E9162CF8B066003B4D7E /* String+Extensions.swift */,
 			);
@@ -13770,6 +13773,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA78E91D2CF8BCB6003B4D7E /* UIView.swift in Sources */,
+				AA78E91F2CF8C063003B4D7E /* Array+Extensions.swift in Sources */,
 				AA78E9172CF8B066003B4D7E /* String+Extensions.swift in Sources */,
 				AA78E91B2CF8B264003B4D7E /* UIColor.swift in Sources */,
 				E02CAE2225B071E9595D472726235C6F /* GlobalModule-dummy.m in Sources */,
