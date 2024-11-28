@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
 
     func addShadowWith(color: UIColor, radius: CGFloat, opacity: Float?) {
         self.layer.shadowColor = color.cgColor
@@ -106,7 +106,7 @@ extension UIView {
     }
 }
 
-extension UIView {
+public extension UIView {
     // Returns `UIEdgeInsets` set using `leading` and `trailing` modifiers adaptive to the language direction
     func getDirectionalUIEdgeInsets(top: CGFloat, leading: CGFloat, bottom: CGFloat, trailing: CGFloat) -> UIEdgeInsets {
         // NOTE: this wil be deprecated when Apple use `NSDirectioanlEdgeInsets` (https://developer.apple.com/documentation/uikit/nsdirectionaledgeinsets) for your insets property instead of `UIEdgeInsets`
@@ -128,7 +128,7 @@ extension UIView {
         }
     }
 }
-extension UIView {
+public extension UIView {
     func roundCornersView(corners: UIRectCorner, radius: CGFloat) {
         let path = UIBezierPath(roundedRect: bounds, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
         let mask = CAShapeLayer()
@@ -137,7 +137,7 @@ extension UIView {
     }
 }
 
-extension UIView {
+public extension UIView {
 
     func dropShadow(scale: Bool = true) {
         layer.masksToBounds = false
@@ -171,7 +171,7 @@ extension UIView {
         layer.shadowPath = shadowPath.cgPath
     }
 }
-extension UIView {
+public extension UIView {
     var parentViewController: UIViewController? {
         var parentResponder: UIResponder? = self
         while parentResponder != nil {
@@ -184,7 +184,7 @@ extension UIView {
     }
 }
 
-extension UIView {
+public extension UIView {
     @discardableResult
     func constrain(constraints: (UIView) -> [NSLayoutConstraint]) -> [NSLayoutConstraint] {
         let constraints = constraints(self)
