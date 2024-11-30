@@ -5818,7 +5818,7 @@
 		FDAFD984AE94F2EC5B3B7EEC3E7730FF /* Heartbeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Heartbeat.swift; path = FirebaseCore/Internal/Sources/HeartbeatLogging/Heartbeat.swift; sourceTree = "<group>"; };
 		FDB763E2E286DC3B3722A565B3EB5CA7 /* GroupBy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupBy.swift; path = RxSwift/Observables/GroupBy.swift; sourceTree = "<group>"; };
 		FDC6FB5EDA8EDCABF1F2DA1A6D047D5D /* SwiftSoup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSoup-prefix.pch"; sourceTree = "<group>"; };
-		FDE4BAFE73EEEE77AEA7AD6CC691E0F9 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = GlobalModule/Classes/Common/Toast.swift; sourceTree = "<group>"; };
+		FDE4BAFE73EEEE77AEA7AD6CC691E0F9 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		FDEFEB28D4073D983F678CDF0987BA76 /* PathNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathNode.swift; path = Sources/Private/MainThread/NodeRenderSystem/Protocols/PathNode.swift; sourceTree = "<group>"; };
 		FDF95EF1AC7B8D43287CD016422CEB38 /* PCBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PCBC.swift; path = Sources/CryptoSwift/BlockMode/PCBC.swift; sourceTree = "<group>"; };
 		FE096E4944068A360029C24913EDCA1D /* Archive+MemoryFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+MemoryFile.swift"; path = "Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+MemoryFile.swift"; sourceTree = "<group>"; };
@@ -8238,7 +8238,6 @@
 		79B70E5842EA7057FC6540628F88FFA4 /* GlobalModule */ = {
 			isa = PBXGroup;
 			children = (
-				FDE4BAFE73EEEE77AEA7AD6CC691E0F9 /* Toast.swift */,
 				AA78E90C2CF8AA1D003B4D7E /* Helper */,
 				AA78E9082CF8A9A3003B4D7E /* Extenstions */,
 				AA11B17F2CF75C72000CFE50 /* Packages */,
@@ -8909,6 +8908,7 @@
 		AA78E90C2CF8AA1D003B4D7E /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				FDE4BAFE73EEEE77AEA7AD6CC691E0F9 /* Toast.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
