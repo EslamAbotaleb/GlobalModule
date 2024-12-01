@@ -8,11 +8,11 @@
 
 import UIKit
 
-class EmptyCVCell: UICollectionViewCell {
+public class EmptyCVCell: UICollectionViewCell {
 
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
 }
