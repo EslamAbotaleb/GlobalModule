@@ -8247,7 +8247,6 @@
 			children = (
 				AA11A2982CFC4A430029901E /* Utlities */,
 				AA11A2902CFC49AB0029901E /* Cells */,
-				AA78E90C2CF8AA1D003B4D7E /* Helper */,
 				AA78E9082CF8A9A3003B4D7E /* Extenstions */,
 				AA11B17F2CF75C72000CFE50 /* Packages */,
 				D67E6852C059BBFD74F168C92A8A3797 /* Pod */,
@@ -8804,6 +8803,7 @@
 		AA11A2982CFC4A430029901E /* Utlities */ = {
 			isa = PBXGroup;
 			children = (
+				FDE4BAFE73EEEE77AEA7AD6CC691E0F9 /* Toast.swift */,
 				AA11A2992CFC4A610029901E /* BubbleTabBar */,
 			);
 			path = Utlities;
@@ -8957,14 +8957,6 @@
 				AA78E9132CF8B03A003B4D7E /* Views */,
 			);
 			path = Extenstions;
-			sourceTree = "<group>";
-		};
-		AA78E90C2CF8AA1D003B4D7E /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				FDE4BAFE73EEEE77AEA7AD6CC691E0F9 /* Toast.swift */,
-			);
-			path = Helper;
 			sourceTree = "<group>";
 		};
 		AA78E9132CF8B03A003B4D7E /* Views */ = {
