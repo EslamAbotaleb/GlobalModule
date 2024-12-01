@@ -10,33 +10,33 @@ import UIKit
 
 @IBDesignable
 public class PieChartView: UIView {
-
+    
     private let activeLayer = CAShapeLayer()
     private let inActiveLayer = CAShapeLayer()
     
-    @IBInspectable var lineWidth: CGFloat = 5 {
+    @IBInspectable public var lineWidth: CGFloat = 5 {
         didSet { setNeedsDisplay() }
     }
     
-    @IBInspectable var inActiveColor: UIColor = .black.withAlphaComponent(0.15) {
+    @IBInspectable public var inActiveColor: UIColor = .black.withAlphaComponent(0.15) {
         didSet { setNeedsDisplay() }
     }
     
-    @IBInspectable var activeColor: UIColor = .blue {
+    @IBInspectable public var activeColor: UIColor = .blue {
         didSet { setNeedsDisplay() }
     }
     
-    @IBInspectable var progress: CGFloat = 0.5 {
+    @IBInspectable public var progress: CGFloat = 0.5 {
         didSet { setNeedsDisplay() }
     }
     
-    @IBInspectable var lineCap: CAShapeLayerLineCap = .square {
+    @IBInspectable public var lineCap: CAShapeLayerLineCap = .square {
         didSet { setNeedsDisplay() }
     }
     
     public override func draw(_ rect: CGRect) {
         let radius = max(bounds.size.width, bounds.size.height) - lineWidth
-                        
+        
         let inActivePath = UIBezierPath(roundedRect: bounds, cornerRadius: radius)
         inActiveLayer.path = inActivePath.cgPath
         inActiveLayer.lineWidth = lineWidth
