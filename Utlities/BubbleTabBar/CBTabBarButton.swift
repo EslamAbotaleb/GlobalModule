@@ -17,6 +17,8 @@ public class CBTabBarButton: UIControl {
 
     var rightToLeft:Bool = false
     private var _isSelected: Bool = false
+    public var tabLabelFont: UIFont? = .systemFont(ofSize: 14, weight: .medium)
+
     override public var isSelected: Bool {
         get {
             return _isSelected
@@ -107,7 +109,7 @@ public class CBTabBarButton: UIControl {
         tabImage.contentMode = .center
         tabImage.translatesAutoresizingMaskIntoConstraints = false
         tabLabel.translatesAutoresizingMaskIntoConstraints = false
-        tabLabel.font = UIFont.SST_Arabic_Medium(ofSize: 14)
+        tabLabel.font = tabLabelFont
         tabLabel.adjustsFontSizeToFitWidth = true
         tabBg.translatesAutoresizingMaskIntoConstraints = false
         tabBg.isUserInteractionEnabled = false

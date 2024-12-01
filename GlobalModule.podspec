@@ -26,9 +26,9 @@ Pod::Spec.new do |spec|
     spec.platform = :ios, '12.0'
     spec.requires_arc = true
     spec.swift_versions = ['4', '4.2', '5', '5.1', '5.2', '5.6']
-    # s.resource_bundles = {
-    #   'GlobalModule' => ['GlobalModule/Assets/*.png']
-    # }
+#     s.resource_bundles = {
+#       'GlobalModule' => ['GlobalModule/Assets/Media.xcassets']
+#     }
     
     spec.subspec 'Core' do |core|
         core.dependency 'Alamofire'
