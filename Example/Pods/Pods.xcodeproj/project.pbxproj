@@ -5007,10 +5007,6 @@
 		A96140335E9CD22C19F9E8B3ADCD0809 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/CryptoSwift/Operators.swift; sourceTree = "<group>"; };
 		A9C4CC732059BFA7CB4312BB11EE0B5D /* GradientStroke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientStroke.swift; path = Sources/Private/Model/ShapeItems/GradientStroke.swift; sourceTree = "<group>"; };
 		A9DEF8D2F24919A7A689BBC22D828CD7 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/Core/SessionDelegate.swift; sourceTree = "<group>"; };
-		AA11A2932CFC49D10029901E /* EmptyCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCVCell.swift; sourceTree = "<group>"; };
-		AA11A2942CFC49D10029901E /* EmptyCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyCVCell.xib; sourceTree = "<group>"; };
-		AA11A2952CFC49D90029901E /* EmptyTVcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTVcell.swift; sourceTree = "<group>"; };
-		AA11A2962CFC49D90029901E /* EmptyTVcell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyTVcell.xib; sourceTree = "<group>"; };
 		AA11A29A2CFC4A7A0029901E /* BubbleTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTabBar.swift; sourceTree = "<group>"; };
 		AA11A29B2CFC4A7A0029901E /* BubbleTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTabBarController.swift; sourceTree = "<group>"; };
 		AA11A29C2CFC4A7A0029901E /* CBTabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBTabBarButton.swift; sourceTree = "<group>"; };
@@ -8252,7 +8248,6 @@
 			isa = PBXGroup;
 			children = (
 				AA11A2982CFC4A430029901E /* Utlities */,
-				AA11A2902CFC49AB0029901E /* Cells */,
 				AA78E9082CF8A9A3003B4D7E /* Extenstions */,
 				AA11B17F2CF75C72000CFE50 /* Packages */,
 				D67E6852C059BBFD74F168C92A8A3797 /* Pod */,
@@ -8777,33 +8772,6 @@
 				CF9809A0E66A6C2E6E1F974ADE36440A /* Support Files */,
 			);
 			path = DRPLoadingSpinner;
-			sourceTree = "<group>";
-		};
-		AA11A2902CFC49AB0029901E /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				AA11A2922CFC49C10029901E /* EmptyCVCell */,
-				AA11A2912CFC49B70029901E /* EmptyTVCell */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		AA11A2912CFC49B70029901E /* EmptyTVCell */ = {
-			isa = PBXGroup;
-			children = (
-				AA11A2952CFC49D90029901E /* EmptyTVcell.swift */,
-				AA11A2962CFC49D90029901E /* EmptyTVcell.xib */,
-			);
-			path = EmptyTVCell;
-			sourceTree = "<group>";
-		};
-		AA11A2922CFC49C10029901E /* EmptyCVCell */ = {
-			isa = PBXGroup;
-			children = (
-				AA11A2932CFC49D10029901E /* EmptyCVCell.swift */,
-				AA11A2942CFC49D10029901E /* EmptyCVCell.xib */,
-			);
-			path = EmptyCVCell;
 			sourceTree = "<group>";
 		};
 		AA11A2982CFC4A430029901E /* Utlities */ = {
