@@ -86,7 +86,7 @@ public class CBTabBarButton: UIControl {
         }
     }
 
-    var tabImage = UIImageView()
+    public var tabImage = UIImageView()
     private var tabLabel = UILabel()
     private var tabBg = UIView()
 
