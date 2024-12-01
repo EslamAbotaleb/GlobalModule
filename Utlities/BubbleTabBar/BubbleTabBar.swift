@@ -12,7 +12,7 @@ open class BubbleTabBar: UITabBar {
     
     var buttons: [CBTabBarButton] = []
     public var animationDuration: Double = 0.3
-    public var barTintColor: UIColor? = .clear
+    public var changeBarTintColor: UIColor? = .clear
 
     open override var selectedItem: UITabBarItem? {
         willSet {
@@ -66,7 +66,7 @@ open class BubbleTabBar: UITabBar {
     private func configure() {
         backgroundColor = UIColor.white
         isTranslucent = false
-        barTintColor = barTintColor
+        barTintColor = changeBarTintColor
         tintColor = #colorLiteral(red: 0.1176470588, green: 0.1176470588, blue: 0.431372549, alpha: 1)
         addSubview(container)
         container.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 10).isActive = true
