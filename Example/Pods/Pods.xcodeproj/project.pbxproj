@@ -1472,6 +1472,7 @@
 		AA29AE702CFC67D3008CE4F3 /* TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA29AE6F2CFC67D3008CE4F3 /* TextAlignment.swift */; };
 		AA29AE722CFC6804008CE4F3 /* AlignFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA29AE712CFC6804008CE4F3 /* AlignFlowLayout.swift */; };
 		AA29AE752CFC6DF2008CE4F3 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA29AE742CFC6DF2008CE4F3 /* PieChartView.swift */; };
+		AA29AEAC2CFC9AC5008CE4F3 /* CustomDotPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA29AEAB2CFC9AC5008CE4F3 /* CustomDotPageControl.swift */; };
 		AA665152D21369ED72E902F90709459B /* UITextField+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D916BE0923FEAC4823EF960B90FBC4EE /* UITextField+Rx.swift */; };
 		AA70D3E4F41DE545AD6021058DE25309 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843F3C46A6C7D67AEFA9B15DF1F8B08 /* ImageTransition.swift */; };
 		AA78E9102CF8ABD6003B4D7E /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78E90F2CF8ABD6003B4D7E /* UILabel.swift */; };
@@ -5030,6 +5031,7 @@
 		AA29AE6F2CFC67D3008CE4F3 /* TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAlignment.swift; sourceTree = "<group>"; };
 		AA29AE712CFC6804008CE4F3 /* AlignFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignFlowLayout.swift; sourceTree = "<group>"; };
 		AA29AE742CFC6DF2008CE4F3 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		AA29AEAB2CFC9AC5008CE4F3 /* CustomDotPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDotPageControl.swift; sourceTree = "<group>"; };
 		AA3E8882A5C7A278DF784FE42C79134D /* Yalta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Yalta.swift; path = FittedSheetsPod/Yalta.swift; sourceTree = "<group>"; };
 		AA78E8D22CF85B4A003B4D7E /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		AA78E8D42CF85B4A003B4D7E /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
@@ -8782,6 +8784,7 @@
 				AA29AE6F2CFC67D3008CE4F3 /* TextAlignment.swift */,
 				FDE4BAFE73EEEE77AEA7AD6CC691E0F9 /* Toast.swift */,
 				AA29AE712CFC6804008CE4F3 /* AlignFlowLayout.swift */,
+				AA29AEAB2CFC9AC5008CE4F3 /* CustomDotPageControl.swift */,
 			);
 			path = Utlities;
 			sourceTree = "<group>";
@@ -13831,6 +13834,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA29AE752CFC6DF2008CE4F3 /* PieChartView.swift in Sources */,
+				AA29AEAC2CFC9AC5008CE4F3 /* CustomDotPageControl.swift in Sources */,
 				AA29AE702CFC67D3008CE4F3 /* TextAlignment.swift in Sources */,
 				AA29AE722CFC6804008CE4F3 /* AlignFlowLayout.swift in Sources */,
 				AA78E91D2CF8BCB6003B4D7E /* UIView.swift in Sources */,
