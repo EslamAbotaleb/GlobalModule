@@ -8,9 +8,9 @@
 
 import UIKit
 
-open class BubbleTabBar: UITabBar {
+public class BubbleTabBar: UITabBar {
     
-    var buttons: [CBTabBarButton] = []
+    public var buttons: [CBTabBarButton] = []
     public var animationDuration: Double = 0.3
     public var changeBarTintColor: UIColor? = .clear
 
