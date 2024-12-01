@@ -13,7 +13,7 @@ public class CellAlignedFlowLayout: UICollectionViewFlowLayout {
     var sectionCollapsed: Bool? = false
     private var cache: [UICollectionViewLayoutAttributes] = []
 
-    required init(itemSize: CGSize, minimumInteritemSpacing: CGFloat = 0, minimumLineSpacing: CGFloat = 0, sectionInset: UIEdgeInsets = .zero, isTable: Bool? = nil, sectionCollapsed: Bool? = nil) {
+    public required init(itemSize: CGSize, minimumInteritemSpacing: CGFloat = 0, minimumLineSpacing: CGFloat = 0, sectionInset: UIEdgeInsets = .zero, isTable: Bool? = nil, sectionCollapsed: Bool? = nil) {
         super.init()
         self.itemSize = itemSize
         self.minimumLineSpacing = minimumLineSpacing
@@ -21,7 +21,7 @@ public class CellAlignedFlowLayout: UICollectionViewFlowLayout {
         self.sectionInset = sectionInset
         sectionInsetReference = .fromSafeArea
     }
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     public override func prepare() {
